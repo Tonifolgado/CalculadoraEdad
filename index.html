@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Edad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            padding: 2.5rem;
+        }
+        .result-card {
+            background-color: #f9fafb;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            border: 1px solid #e5e7eb;
+        }
+        .gemini-card {
+            background-color: #e0f2fe;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            border: 1px solid #93c5fd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        th, td {
+            padding: 0.75rem;
+            border: 1px solid #cbd5e1;
+            text-align: left;
+        }
+        th {
+            background-color: #dbeafe;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <div class="container max-w-lg w-full text-center">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6">Calculadora de Edad</h1>
+        
+        <div class="mb-6">
+            <label for="birthdate" class="block text-gray-700 font-medium mb-2">Ingresa tu fecha de nacimiento:</label>
+            <input type="date" id="birthdate" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200">
+        </div>
+        
+        <div id="results" class="hidden text-left">
+            <div class="result-card">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Tiempo transcurrido:</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Años:</span> <span id="years" class="font-bold text-blue-600">0</span>
+                    </p>
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Meses:</span> <span id="months" class="font-bold text-blue-600">0</span>
+                    </p>
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Semanas:</span> <span id="weeks" class="font-bold text-blue-600">0</span>
+                    </p>
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Días:</span> <span id="days" class="font-bold text-blue-600">0</span>
+                    </p>
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Horas:</span> <span id="hours" class="font-bold text-blue-600">0</span>
+                    </p>
+                </div>
+            </div>
+
+            <button id="gemini-btn" class="w-full bg-blue-500 text-white font-bold py-3 px-6 rounded-md mt-6 hover:bg-blue-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:bg-gray-400">
+                ⌛ Obtener acontecimientos históricos ⌛
+            </button>
+            
+            <div id="gemini-output" class="gemini-card hidden mt-4">
+                <!-- La tabla se generará aquí -->
+            </div>
+        </div>
+
+        <p id="error-message" class="hidden text-red-500 mt-4"></p>
+    </div>
+
+    <script>
+        const birthdateInput = document.getElementById('birthdate');
+        const resultsDiv = document.getElementById('results');
+        const errorMessage = document.getElementById('error-message');
+        const geminiBtn = document.getElementById('gemini-btn');
+        const geminiOutputDiv = document.getElementById('gemini-output');
+        
+        let calculatedYears = 0;
+        let calculatedMonths = 0;
+        let calculatedDays = 0;
+
+        birthdateInput.addEventListener('change', () => {
+            calculateAge();
+            geminiOutputDiv.classList.add('hidden');
+            geminiOutputDiv.innerHTML = '';
+        });
+        geminiBtn.addEventListener('click', generateHistoricalContent);
+
+        function calculateAge() {
+            const birthdate = new Date(birthdateInput.value);
+            const today = new Date();
+
+            if (isNaN(birthdate.getTime())) {
+                errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida.';
+                errorMessage.classList.remove('hidden');
+                resultsDiv.classList.add('hidden');
+                return;
+            }
+
+            if (birthdate > today) {
+                errorMessage.textContent = 'La fecha de nacimiento no puede ser en el futuro.';
+                errorMessage.classList.remove('hidden');
+                resultsDiv.classList.add('hidden');
+                return;
+            }
+
+            errorMessage.classList.add('hidden');
+            resultsDiv.classList.remove('hidden');
+
+            const totalMilliseconds = today - birthdate;
+            
+            const hours = Math.floor(totalMilliseconds / (1000 * 60 * 60));
+            const days = Math.floor(totalMilliseconds / (1000 * 60 * 60 * 24));
+            
+            let years = today.getFullYear() - birthdate.getFullYear();
+            let months = today.getMonth() - birthdate.getMonth();
+            let preciseDays = today.getDate() - birthdate.getDate();
+
+            if (preciseDays < 0) {
+                months--;
+                preciseDays += new Date(today.getFullYear(), today.getMonth(), 0).getDate();
+            }
+
+            if (months < 0) {
+                years--;
+                months += 12;
+            }
+
+            calculatedYears = years;
+            calculatedMonths = months;
+            calculatedDays = preciseDays;
+
+            const weeks = Math.floor(days / 7);
+            const totalMonths = Math.floor(days / 30.44);
+            const totalYears = Math.floor(days / 365.25);
+
+            document.getElementById('years').textContent = totalYears.toLocaleString();
+            document.getElementById('months').textContent = totalMonths.toLocaleString();
+            document.getElementById('weeks').textContent = weeks.toLocaleString();
+            document.getElementById('days').textContent = days.toLocaleString();
+            document.getElementById('hours').textContent = hours.toLocaleString();
+        }
+
+        // --- Funciones para generar contenido histórico ---
+
+        function generateHistoricalContent() {
+            if (calculatedYears === 0) {
+                errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida y calcula la edad primero.';
+                errorMessage.classList.remove('hidden');
+                return;
+            }
+
+            geminiBtn.disabled = true;
+            geminiBtn.textContent = 'Cargando acontecimientos...';
+            geminiOutputDiv.classList.remove('hidden');
+            geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">Generando el pasado, por favor espera...</p>';
+
+            const birthYear = new Date(birthdateInput.value).getFullYear();
+            const events = getHistoricalEvents(birthYear);
+
+            setTimeout(() => {
+                displayEventsAsTable(events);
+                geminiBtn.disabled = false;
+                geminiBtn.textContent = '⌛ Obtener acontecimientos históricos ⌛';
+            }, 1000); // Simulamos un tiempo de carga
+        }
+
+        function getHistoricalEvents(birthYear) {
+            const allEvents = [
+                { year: '1975', international: 'Fin de la Guerra de Vietnam', local: 'Proclamación de Juan Carlos I como Rey de España' },
+                { year: '1976', international: 'Lanzamiento del primer iPhone', local: 'Legalización de los partidos políticos en España' },
+                { year: '1977', international: 'Se estrena Star Wars: Una nueva esperanza', local: 'Primeras elecciones democráticas tras la dictadura' },
+                { year: '1978', international: 'El primer bebé probeta nace en Inglaterra', local: 'Aprobación de la Constitución Española' },
+                { year: '1979', international: 'La crisis del petróleo sacude la economía mundial', local: 'Primeros ayuntamientos democráticos' },
+                { year: '1980', international: 'John Lennon es asesinado', local: 'Intento de golpe de Estado del 23-F' },
+                { year: '1981', international: 'El IBM PC es lanzado', local: 'Aprobación del Estatuto de Autonomía de Andalucía' },
+                { year: '1982', international: 'Se lanza el primer CD (disco compacto)', local: 'España entra en la OTAN y el PSOE gana las elecciones' },
+                { year: '1983', international: 'Internet se consolida con la adopción de TCP/IP', local: 'Se aprueba el Estatuto de Autonomía de la Comunidad Valenciana' },
+                { year: '1984', international: 'Apple lanza el Macintosh', local: 'Creación del Estatuto de Autonomía de Castilla y León' },
+                { year: '1985', international: 'Microsoft lanza la primera versión de Windows', local: 'España firma el Tratado de Adhesión a la CEE' },
+                { year: '1986', international: 'El transbordador espacial Challenger explota', local: 'España ingresa formalmente en la Comunidad Económica Europea (CEE)' },
+                { year: '1987', international: 'El mercado de valores de EE.UU. cae drásticamente', local: 'Se celebra en España la primera votación para elegir al Parlamento Europeo' },
+                { year: '1988', international: 'Se lanza el primer virus informático', local: 'Inauguración de la Exposición Universal de Barcelona' },
+                { year: '1989', international: 'El Muro de Berlín cae', local: 'La banda terrorista ETA asesina a un empresario vasco' },
+                { year: '1990', international: 'La reunificación de Alemania', local: 'La Ley de Ordenación General del Sistema Educativo (LOGSE) entra en vigor' },
+                { year: '1991', international: 'La Unión Soviética se disuelve', local: 'El aeropuerto de Barcelona estrena una nueva terminal' },
+                { year: '1992', international: 'Se lanza la World Wide Web', local: 'Juegos Olímpicos de Barcelona y Expo 92 en Sevilla' },
+                { year: '1993', international: 'Se estrena la película Parque Jurásico', local: 'España preside la Unión Europea' },
+                { year: '1994', international: 'Nelson Mandela es elegido presidente de Sudáfrica', local: 'Inauguración del tren de alta velocidad Madrid-Sevilla' },
+                { year: '1995', international: 'Se lanza Windows 95', local: 'El Museo Guggenheim Bilbao abre sus puertas' },
+                { year: '1996', international: 'Nace la oveja Dolly, el primer mamífero clonado', local: 'José María Aznar (PP) es elegido presidente del Gobierno' },
+                { year: '1997', international: 'El protocolo de Kioto es adoptado', local: 'Asesinato del concejal Miguel Ángel Blanco por ETA' },
+                { year: '1998', international: 'Google es fundado', local: 'El ciclismo español destaca en el Tour de Francia' },
+                { year: '1999', international: 'La introducción del euro como moneda', local: 'ETA declara una tregua indefinida' },
+                { year: '2000', international: 'El fin de la amenaza del Y2K', local: 'Elecciones generales en España' },
+                { year: '2001', international: 'Los ataques del 11 de septiembre en EE.UU.', local: 'España lidera la presidencia del Consejo de la Unión Europea' },
+                { year: '2002', international: 'La eurozona adopta el euro en efectivo', local: 'España adopta el euro' },
+                { year: '2003', international: 'Se inicia la Guerra de Irak', local: 'Se aprueba la Ley de Calidad de la Educación' },
+                { year: '2004', international: 'Facebook es lanzado', local: 'Atentados del 11 de marzo en Madrid' },
+                { year: '2005', international: 'YouTube se funda', local: 'Se aprueba la Ley del Matrimonio Homosexual' },
+                { year: '2006', international: 'Se lanza Twitter', local: 'Se aprueba la Ley de Dependencia' },
+                { year: '2007', international: 'El primer iPhone es lanzado', local: 'Inauguración del AVE Madrid-Málaga' },
+                { year: '2008', international: 'La crisis financiera global', local: 'El sector de la construcción se desploma' },
+                { year: '2009', international: 'Bitcoin se introduce', local: 'La crisis económica llega a España' },
+                { year: '2010', international: 'Se lanza el iPad', local: 'La selección española de fútbol gana el Mundial en Sudáfrica' },
+                { year: '2011', international: 'La muerte de Osama bin Laden', local: 'Movimiento 15-M y protestas de los "indignados"' },
+                { year: '2012', international: 'El descubrimiento del bosón de Higgs', local: 'Mariano Rajoy (PP) es elegido presidente del Gobierno' },
+                { year: '2013', international: 'Edward Snowden revela documentos clasificados', local: 'Accidente ferroviario en Santiago de Compostela' },
+                { year: '2014', international: 'El brote del virus del Ébola en África', local: 'La abdicación del Rey Juan Carlos I y la proclamación de Felipe VI' },
+                { year: '2015', international: 'El acuerdo nuclear con Irán', local: 'Terremoto en Lorca' },
+                { year: '2016', international: 'El Reino Unido vota a favor del Brexit', local: 'Nace el partido político Ciudadanos' },
+                { year: '2017', international: 'Donald Trump asume la presidencia de EE.UU.', local: 'Referéndum de independencia en Cataluña' },
+                { year: '2018', international: 'El movimiento #MeToo se extiende globalmente', local: 'Pedro Sánchez (PSOE) es elegido presidente' },
+                { year: '2019', international: 'El incendio de la Catedral de Notre Dame', local: 'Se declara la emergencia climática en España' },
+                { year: '2020', international: 'La pandemia global de COVID-19', local: 'España decreta el estado de alarma por el COVID-19' },
+                { year: '2021', international: 'Joe Biden asume la presidencia de EE.UU.', local: 'La erupción volcánica en La Palma' },
+                { year: '2022', international: 'Invasión de Rusia a Ucrania', local: 'España implementa medidas para enfrentar la inflación' },
+                { year: '2023', international: 'Desarrollo de IA (Inteligencia Artificial)', local: 'Elecciones generales en España' },
+                { year: '2024', international: 'Juegos Olímpicos de París', local: 'Crisis política en el Congreso de los Diputados' }
+            ];
+
+            const currentYear = new Date().getFullYear();
+            const eventsSinceBirth = allEvents.filter(event => parseInt(event.year) >= birthYear && parseInt(event.year) <= currentYear);
+
+            const yearsMap = new Map();
+            eventsSinceBirth.forEach(event => {
+                yearsMap.set(event.year, event);
+            });
+
+            const finalEvents = [];
+            for (let i = birthYear; i <= currentYear; i++) {
+                const year = i.toString();
+                if (yearsMap.has(year)) {
+                    finalEvents.push(yearsMap.get(year));
+                } else {
+                    finalEvents.push({ year: year, international: 'No hay un evento relevante documentado para este año.', local: 'No hay un evento relevante documentado para este año.' });
+                }
+            }
+
+            return finalEvents;
+        }
+
+        function displayEventsAsTable(events) {
+            geminiOutputDiv.innerHTML = '';
+            
+            if (!Array.isArray(events) || events.length === 0) {
+                geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">No se encontraron eventos históricos para este período.</p>';
+                return;
+            }
+
+            const table = document.createElement('table');
+            table.classList.add('w-full', 'rounded-lg', 'overflow-hidden');
+            
+            const thead = document.createElement('thead');
+            thead.innerHTML = '<tr><th class="bg-blue-200">Año</th><th class="bg-blue-200">Acontecimiento Internacional</th><th class="bg-blue-200">Acontecimiento Local (España)</th></tr>';
+            table.appendChild(thead);
+            
+            const tbody = document.createElement('tbody');
+            events.forEach(event => {
+                const row = document.createElement('tr');
+                const yearCell = document.createElement('td');
+                const internationalCell = document.createElement('td');
+                const localCell = document.createElement('td');
+                
+                yearCell.textContent = event.year;
+                internationalCell.textContent = event.international;
+                localCell.textContent = event.local;
+                
+                row.appendChild(yearCell);
+                row.appendChild(internationalCell);
+                row.appendChild(localCell);
+                tbody.appendChild(row);
+            });
+            table.appendChild(tbody);
+            
+            geminiOutputDiv.appendChild(table);
+        }
+    </script>
+</body>
+</html>
