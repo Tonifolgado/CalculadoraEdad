@@ -22,6 +22,10 @@ birthdateInput.addEventListener('change', () => {
 });
 geminiBtn.addEventListener('click', generateHistoricalContent);
 
+/**
+ * Calculates the age of a person based on their birthdate and displays it in years, months, weeks, days, and hours.
+ * @returns {void}
+ */
 function calculateAge() {
     const birthdate = new Date(birthdateInput.value);
     const today = new Date();
@@ -68,6 +72,10 @@ function calculateAge() {
 
 // --- Funciones para generar contenido histórico ---
 
+/**
+ * Generates historical content for the given birth year and displays it in a table.
+ * @returns {Promise<void>}
+ */
 async function generateHistoricalContent() {
     if (!birthdateInput.value) {
         errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida.';
@@ -93,6 +101,11 @@ async function generateHistoricalContent() {
     }
 }
 
+/**
+ * Gets a list of historical events from the Gemini API for the given birth year.
+ * @param {number} birthYear The year of birth.
+ * @returns {Promise<any[]>} A promise that resolves with a list of historical events.
+ */
 async function getHistoricalEvents(birthYear: number): Promise<any[]> {
     const currentYear = new Date().getFullYear();
     
@@ -131,6 +144,11 @@ async function getHistoricalEvents(birthYear: number): Promise<any[]> {
     return JSON.parse(jsonText);
 }
 
+/**
+ * Displays a list of historical events in a table.
+ * @param {any[]} events A list of historical events.
+ * @returns {void}
+ */
 function displayEventsAsTable(events: any[]) {
     geminiOutputDiv.innerHTML = '';
     
