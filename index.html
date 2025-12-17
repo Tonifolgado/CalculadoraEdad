@@ -103,6 +103,10 @@
         let calculatedMonths = 0;
         let calculatedDays = 0;
 
+        // Set max date to today
+        const todayStr = new Date().toISOString().split('T')[0];
+        birthdateInput.max = todayStr;
+
         birthdateInput.addEventListener('change', () => {
             calculateAge();
             geminiOutputDiv.classList.add('hidden');
