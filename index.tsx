@@ -22,10 +22,6 @@ birthdateInput.addEventListener('change', () => {
 });
 geminiBtn.addEventListener('click', generateHistoricalContent);
 
-/**
- * Calculates the age of a person based on their birthdate and displays it in years, months, weeks, days, and hours.
- * @returns {void}
- */
 function calculateAge() {
     const birthdate = new Date(birthdateInput.value);
     const today = new Date();
@@ -72,10 +68,6 @@ function calculateAge() {
 
 // --- Funciones para generar contenido histórico ---
 
-/**
- * Generates historical content for the given birth year and displays it in a table.
- * @returns {Promise<void>}
- */
 async function generateHistoricalContent() {
     if (!birthdateInput.value) {
         errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida.';
@@ -84,9 +76,9 @@ async function generateHistoricalContent() {
     }
 
     geminiBtn.disabled = true;
-    geminiBtn.textContent = 'Cargando acontecimientos...';
+    geminiBtn.textContent = 'Explorando la historia...';
     geminiOutputDiv.classList.remove('hidden');
-    geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">Generando el pasado, por favor espera...</p>';
+    geminiOutputDiv.innerHTML = '<p class="text-gray-600 text-center animate-pulse py-8">Generando el pasado, por favor espera...</p>';
 
     try {
         const birthYear = new Date(birthdateInput.value).getFullYear();
@@ -94,18 +86,13 @@ async function generateHistoricalContent() {
         displayEventsAsTable(events);
     } catch (error) {
         console.error(error);
-        geminiOutputDiv.innerHTML = '<p class="text-red-500 text-center">No se pudieron generar los eventos. Por favor, inténtalo de nuevo.</p>';
+        geminiOutputDiv.innerHTML = '<p class="text-red-500 text-center py-4 font-medium">No se pudieron generar los eventos. Por favor, inténtalo de nuevo.</p>';
     } finally {
         geminiBtn.disabled = false;
-        geminiBtn.textContent = '⌛ Obtener acontecimientos históricos ⌛';
+        geminiBtn.textContent = '⌛ Ver hitos históricos ⌛';
     }
 }
 
-/**
- * Gets a list of historical events from the Gemini API for the given birth year.
- * @param {number} birthYear The year of birth.
- * @returns {Promise<any[]>} A promise that resolves with a list of historical events.
- */
 async function getHistoricalEvents(birthYear: number): Promise<any[]> {
     const currentYear = new Date().getFullYear();
     
@@ -144,11 +131,6 @@ async function getHistoricalEvents(birthYear: number): Promise<any[]> {
     return JSON.parse(jsonText);
 }
 
-/**
- * Displays a list of historical events in a table.
- * @param {any[]} events A list of historical events.
- * @returns {void}
- */
 function displayEventsAsTable(events: any[]) {
     geminiOutputDiv.innerHTML = '';
     
@@ -157,20 +139,26 @@ function displayEventsAsTable(events: any[]) {
         return;
     }
 
+    const tableWrapper = document.createElement('div');
+    tableWrapper.classList.add('overflow-x-auto', 'rounded-xl');
+    
     const table = document.createElement('table');
-    table.classList.add('w-full', 'rounded-lg', 'overflow-hidden');
+    table.classList.add('w-full');
     
     const thead = document.createElement('thead');
-    thead.innerHTML = '<tr><th class="bg-blue-200">Año</th><th class="bg-blue-200">Acontecimiento Internacional</th><th class="bg-blue-200">Acontecimiento Local (España)</th></tr>';
+    thead.innerHTML = '<tr><th class="text-left">Año</th><th class="text-left">Internacional</th><th class="text-left">España</th></tr>';
     table.appendChild(thead);
     
     const tbody = document.createElement('tbody');
     events.forEach(event => {
         const row = document.createElement('tr');
+        row.classList.add('hover:bg-blue-50/50', 'transition-colors');
+        
         const yearCell = document.createElement('td');
         const internationalCell = document.createElement('td');
         const localCell = document.createElement('td');
         
+        yearCell.classList.add('font-bold', 'text-blue-700');
         yearCell.textContent = event.year;
         internationalCell.textContent = event.international;
         localCell.textContent = event.local;
@@ -182,5 +170,6 @@ function displayEventsAsTable(events: any[]) {
     });
     table.appendChild(tbody);
     
-    geminiOutputDiv.appendChild(table);
+    tableWrapper.appendChild(table);
+    geminiOutputDiv.appendChild(tableWrapper);
 }
