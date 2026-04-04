@@ -3,30 +3,26 @@
  * SPDX-License-Identifier: Apache-2.0
 */
 
-import { GoogleGenAI, Type } from "@google/genai";
+/// <reference types="vite/client" />
 
-// Assuming process.env.API_KEY is configured
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const birthdateInput = document.getElementById('birthdate') as HTMLInputElement | null;
+const resultsDiv = document.getElementById('results') as HTMLDivElement | null;
+const errorMessage = document.getElementById('error-message') as HTMLParagraphElement | null;
+const formattedDateDisplay = document.getElementById('formatted-date-display') as HTMLParagraphElement | null;
 
-const birthdateInput = document.getElementById('birthdate') as HTMLInputElement;
-const resultsDiv = document.getElementById('results') as HTMLDivElement;
-const errorMessage = document.getElementById('error-message') as HTMLParagraphElement;
-const geminiBtn = document.getElementById('gemini-btn') as HTMLButtonElement;
-const geminiOutputDiv = document.getElementById('gemini-output') as HTMLDivElement;
-const formattedDateDisplay = document.getElementById('formatted-date-display') as HTMLParagraphElement;
-
-birthdateInput.addEventListener('change', () => {
-    calculateAge();
-    geminiOutputDiv.classList.add('hidden');
-    geminiOutputDiv.innerHTML = '';
-});
-geminiBtn.addEventListener('click', generateHistoricalContent);
+if (birthdateInput) {
+    birthdateInput.addEventListener('change', () => {
+        calculateAge();
+    });
+}
 
 /**
  * Calculates the age of a person based on their birthdate and displays it in years, months, weeks, days, and hours.
  * @returns {void}
  */
 function calculateAge() {
+    if (!birthdateInput || !errorMessage || !resultsDiv || !formattedDateDisplay) return;
+
     const birthdate = new Date(birthdateInput.value);
     const today = new Date();
 
@@ -63,124 +59,18 @@ function calculateAge() {
     const totalMonths = Math.floor(days / 30.44);
     const totalYears = Math.floor(days / 365.25);
 
-    (document.getElementById('years') as HTMLElement).textContent = totalYears.toLocaleString();
-    (document.getElementById('months') as HTMLElement).textContent = totalMonths.toLocaleString();
-    (document.getElementById('weeks') as HTMLElement).textContent = weeks.toLocaleString();
-    (document.getElementById('days') as HTMLElement).textContent = days.toLocaleString();
-    (document.getElementById('hours') as HTMLElement).textContent = hours.toLocaleString();
-}
+    const yearsEl = document.getElementById('years');
+    if (yearsEl) yearsEl.textContent = totalYears.toLocaleString();
 
-// --- Funciones para generar contenido histórico ---
+    const monthsEl = document.getElementById('months');
+    if (monthsEl) monthsEl.textContent = totalMonths.toLocaleString();
 
-/**
- * Generates historical content for the given birth year and displays it in a table.
- * @returns {Promise<void>}
- */
-async function generateHistoricalContent() {
-    if (!birthdateInput.value) {
-        errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida.';
-        errorMessage.classList.remove('hidden');
-        return;
-    }
+    const weeksEl = document.getElementById('weeks');
+    if (weeksEl) weeksEl.textContent = weeks.toLocaleString();
 
-    geminiBtn.disabled = true;
-    geminiBtn.textContent = 'Cargando acontecimientos...';
-    geminiOutputDiv.classList.remove('hidden');
-    geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">Generando el pasado, por favor espera...</p>';
+    const daysEl = document.getElementById('days');
+    if (daysEl) daysEl.textContent = days.toLocaleString();
 
-    try {
-        const birthYear = new Date(birthdateInput.value).getFullYear();
-        const events = await getHistoricalEvents(birthYear);
-        displayEventsAsTable(events);
-    } catch (error) {
-        console.error(error);
-        geminiOutputDiv.innerHTML = '<p class="text-red-500 text-center">No se pudieron generar los eventos. Por favor, inténtalo de nuevo.</p>';
-    } finally {
-        geminiBtn.disabled = false;
-        geminiBtn.textContent = '⌛ Obtener acontecimientos históricos ⌛';
-    }
-}
-
-/**
- * Gets a list of historical events from the Gemini API for the given birth year.
- * @param {number} birthYear The year of birth.
- * @returns {Promise<any[]>} A promise that resolves with a list of historical events.
- */
-async function getHistoricalEvents(birthYear: number): Promise<any[]> {
-    const currentYear = new Date().getFullYear();
-    
-    const prompt = `Genera una lista de acontecimientos históricos relevantes, uno internacional y uno local (de España), para cada año desde ${birthYear} hasta ${currentYear}.`;
-
-    const response = await ai.models.generateContent({
-       model: "gemini-2.5-flash",
-       contents: prompt,
-       config: {
-         responseMimeType: "application/json",
-         responseSchema: {
-            type: Type.ARRAY,
-            items: {
-              type: Type.OBJECT,
-              properties: {
-                year: {
-                  type: Type.STRING,
-                  description: 'El año del acontecimiento.',
-                },
-                international: {
-                  type: Type.STRING,
-                  description: 'Un acontecimiento internacional relevante de ese año.',
-                },
-                local: {
-                  type: Type.STRING,
-                  description: 'Un acontecimiento local relevante de España para ese año.',
-                },
-              },
-              required: ['year', 'international', 'local'],
-            },
-          },
-       },
-    });
-
-    const jsonText = response.text.trim();
-    return JSON.parse(jsonText);
-}
-
-/**
- * Displays a list of historical events in a table.
- * @param {any[]} events A list of historical events.
- * @returns {void}
- */
-function displayEventsAsTable(events: any[]) {
-    geminiOutputDiv.innerHTML = '';
-    
-    if (!Array.isArray(events) || events.length === 0) {
-        geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">No se encontraron eventos históricos para este período.</p>';
-        return;
-    }
-
-    const table = document.createElement('table');
-    table.classList.add('w-full', 'rounded-lg', 'overflow-hidden');
-    
-    const thead = document.createElement('thead');
-    thead.innerHTML = '<tr><th class="bg-blue-200">Año</th><th class="bg-blue-200">Acontecimiento Internacional</th><th class="bg-blue-200">Acontecimiento Local (España)</th></tr>';
-    table.appendChild(thead);
-    
-    const tbody = document.createElement('tbody');
-    events.forEach(event => {
-        const row = document.createElement('tr');
-        const yearCell = document.createElement('td');
-        const internationalCell = document.createElement('td');
-        const localCell = document.createElement('td');
-        
-        yearCell.textContent = event.year;
-        internationalCell.textContent = event.international;
-        localCell.textContent = event.local;
-        
-        row.appendChild(yearCell);
-        row.appendChild(internationalCell);
-        row.appendChild(localCell);
-        tbody.appendChild(row);
-    });
-    table.appendChild(tbody);
-    
-    geminiOutputDiv.appendChild(table);
+    const hoursEl = document.getElementById('hours');
+    if (hoursEl) hoursEl.textContent = hours.toLocaleString();
 }

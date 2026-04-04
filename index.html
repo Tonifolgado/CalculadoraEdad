@@ -24,13 +24,6 @@
             margin-top: 1.5rem;
             border: 1px solid #e5e7eb;
         }
-        .gemini-card {
-            background-color: #e0f2fe;
-            border-radius: 0.75rem;
-            padding: 1.5rem;
-            margin-top: 1.5rem;
-            border: 1px solid #93c5fd;
-        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -44,6 +37,13 @@
         th {
             background-color: #dbeafe;
             font-weight: bold;
+        }
+        .gemini-card {
+            background-color: #e0f2fe;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            border: 1px solid #93c5fd;
         }
         /* Timeline Styles */
         .timeline {
@@ -211,9 +211,8 @@
             </button>
             
             <div id="gemini-output" class="gemini-card hidden mt-4">
-                <!-- La tabla se generará aquí -->
+                <!-- Timeline se generará aquí -->
             </div>
-        </div>
 
         <p id="error-message" class="hidden text-red-500 mt-4"></p>
     </div>
@@ -270,7 +269,6 @@
             const totalMonths = Math.floor(days / 30.44);
             const totalYears = Math.floor(days / 365.25);
 
-            // Asignamos el valor correcto a la variable que usará Gemini
             calculatedYears = totalYears;
 
             document.querySelector('#years').textContent = totalYears.toLocaleString();
@@ -297,7 +295,7 @@
             try {
                 const birthYear = new Date(birthdateInput.value + 'T00:00:00').getFullYear();
                 const events = await getHistoricalEvents(birthYear);
-                displayEventsAsTable(events);
+                displayEventsAsTimeline(events);
             } catch (error) {
                 console.error('Error generating historical content:', error);
                 const errorMsg = error.message || error.toString();
@@ -331,7 +329,7 @@ Devuelve SOLO un array JSON válido sin markdown. Formato: [{"year": "YYYY", "in
             return JSON.parse(jsonString);
         }
 
-        function displayEventsAsTable(events) {
+        function displayEventsAsTimeline(events) {
             geminiOutputDiv.innerHTML = '';
             
             if (!Array.isArray(events) || events.length === 0) {
