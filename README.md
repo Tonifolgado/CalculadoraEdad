@@ -20,6 +20,7 @@ View your app in AI Studio: https://ai.studio/apps/drive/1hw3CPsHFrre93tpKFAN3ET
 **Prerequisites:**
 
 -   Node.js
+-   
 -   A Gemini API key
 
 1.  Clone the repository:
