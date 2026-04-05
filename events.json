@@ -435,8 +435,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1916)",
-          "description": "Acontecimiento histórico mundial durante el año 1916.",
+          "title": "Batalla del Somme",
+          "description": "Una de las batallas más cruentas de la Historia con cientos de miles de bajas en Primera Guerra.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -487,8 +487,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1918)",
-          "description": "Acontecimiento histórico mundial durante el año 1918.",
+          "title": "Fin de la Primera Guerra Mundial",
+          "description": "Termina la Primera Guerra Mundial con firma del Armisticio el 11 de noviembre.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -513,8 +513,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1919)",
-          "description": "Acontecimiento histórico mundial durante el año 1919.",
+          "title": "Tratado de Versalles",
+          "description": "Tratado que oficializa el fin de la Primera Guerra Mundial redibujando Europa completamente.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -565,8 +565,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1921)",
-          "description": "Acontecimiento histórico mundial durante el año 1921.",
+          "title": "Washington Naval Conference",
+          "description": "Conferencia internacional sobre desarme naval entre potencias después de la guerra.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -591,8 +591,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1922)",
-          "description": "Acontecimiento histórico mundial durante el año 1922.",
+          "title": "Descubrimiento de la tumba de Tutankamón",
+          "description": "Howard Carter descubre la tumba del faraón Tutankamón en Egipto generando fascinación mundial.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -617,8 +617,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1923)",
-          "description": "Acontecimiento histórico mundial durante el año 1923.",
+          "title": "Putsch de Múnich",
+          "description": "Intento fallido de golpe de estado de Hitler en Múnich generando primeros enfrentamientos.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -643,8 +643,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1924)",
-          "description": "Acontecimiento histórico mundial durante el año 1924.",
+          "title": "Juegos Olímpicos de París",
+          "description": "París alberga los Juegos Olímpicos simbolizando recuperación europeo tras Primera Guerra.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -669,8 +669,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1925)",
-          "description": "Acontecimiento histórico mundial durante el año 1925.",
+          "title": "Conferencia de Locarno",
+          "description": "Conferencia diplomática busca fortalecer estabilidad europea mediante tratados de seguridad.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -695,8 +695,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1926)",
-          "description": "Acontecimiento histórico mundial durante el año 1926.",
+          "title": "Era del Jazz floreciente",
+          "description": "Época de cambios culturales, jazz, cine mudo y transformaciones sociales en Occidente.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -721,8 +721,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1927)",
-          "description": "Acontecimiento histórico mundial durante el año 1927.",
+          "title": "Vuelo transatlántico de Lindbergh",
+          "description": "Charles Lindbergh realiza primer vuelo transatlántico solitario sin escalas revolucionando aviación.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -747,8 +747,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1928)",
-          "description": "Acontecimiento histórico mundial durante el año 1928.",
+          "title": "Descubrimiento de la Penicilina",
+          "description": "Alexander Fleming descubre la penicilina iniciando era de antibióticos en medicina.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -799,8 +799,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1930)",
-          "description": "Acontecimiento histórico mundial durante el año 1930.",
+          "title": "Mahatma Gandhi lidera marcha",
+          "description": "Gandhi lidera la Marcha de la Sal contra el dominio británico iniciando independencia India.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -825,8 +825,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1931)",
-          "description": "Acontecimiento histórico mundial durante el año 1931.",
+          "title": "II República Española",
+          "description": "Se proclama la Segunda República Española tras abdicación del Rey Alfonso XIII.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -851,8 +851,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1932)",
-          "description": "Acontecimiento histórico mundial durante el año 1932.",
+          "title": "Franklin D. Roosevelt elegido",
+          "description": "Franklin Delano Roosevelt es elegido presidente de EE.UU. durante Gran Depresión.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -877,8 +877,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1933)",
-          "description": "Acontecimiento histórico mundial durante el año 1933.",
+          "title": "Hitler llega al poder",
+          "description": "Adolf Hitler asciende al poder en Alemania iniciando régimen nazi que transformará mundo.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -903,8 +903,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1934)",
-          "description": "Acontecimiento histórico mundial durante el año 1934.",
+          "title": "Noche de los Cuchillos Largos",
+          "description": "Hitler purga enemigos internos en Alemania consolidando poder totalitario del régimen nazi.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -929,8 +929,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1935)",
-          "description": "Acontecimiento histórico mundial durante el año 1935.",
+          "title": "Leyes de Núremberg",
+          "description": "Alemania promulga leyes racistas contra judíos iniciando persecución sistemática nazi.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -981,8 +981,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1937)",
-          "description": "Acontecimiento histórico mundial durante el año 1937.",
+          "title": "Bombardeo de Guernica",
+          "description": "Bombardeo alemán de Guernica durante Guerra Civil Española simboliza atrocidades de guerra.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1007,8 +1007,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1938)",
-          "description": "Acontecimiento histórico mundial durante el año 1938.",
+          "title": "Anschluss de Austria",
+          "description": "Hitler anexiona Austria incorporándola al Tercer Reich en expansionismo alemán.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1059,8 +1059,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1940)",
-          "description": "Acontecimiento histórico mundial durante el año 1940.",
+          "title": "Batalla de Inglaterra",
+          "description": "Batalla aérea en Inglaterra donde la RAF resiste bombardeos alemanes salvando nación.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1085,8 +1085,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1941)",
-          "description": "Acontecimiento histórico mundial durante el año 1941.",
+          "title": "Operación Barbarroja",
+          "description": "Alemania invade Unión Soviética iniciando conflicto brutal entre potencias totalitarias.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1111,8 +1111,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1942)",
-          "description": "Acontecimiento histórico mundial durante el año 1942.",
+          "title": "Batalla de Stalingrado",
+          "description": "Batalla épica en Stalingrado marca punto de inflexión en favor de Aliados en Segunda Guerra.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1137,8 +1137,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1943)",
-          "description": "Acontecimiento histórico mundial durante el año 1943.",
+          "title": "Desembarco en Sicilia",
+          "description": "Aliados desembarcan en Sicilia iniciando invasión de Europa desde sur durante Segunda Guerra.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1163,8 +1163,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1944)",
-          "description": "Acontecimiento histórico mundial durante el año 1944.",
+          "title": "Desembarco de Normandía",
+          "description": "Operación Overlord desembarca en Normandía abriendo frente occidental contra nazis.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1215,8 +1215,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1946)",
-          "description": "Acontecimiento histórico mundial durante el año 1946.",
+          "title": "Juicios de Núremberg",
+          "description": "Juicios internacionales procesan criminales nazis por crímenes de guerra y contra humanidad.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1241,8 +1241,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1947)",
-          "description": "Acontecimiento histórico mundial durante el año 1947.",
+          "title": "Independencia de la India",
+          "description": "India logra independencia de Reino Unido bajo liderazgo de Gandhi iniciando nuevo estado.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1267,8 +1267,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1948)",
-          "description": "Acontecimiento histórico mundial durante el año 1948.",
+          "title": "Creación de Israel",
+          "description": "Se proclama el Estado de Israel generando conflicto árabe-israelí de alcance mundial.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1293,8 +1293,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1949)",
-          "description": "Acontecimiento histórico mundial durante el año 1949.",
+          "title": "Revolución Comunista en China",
+          "description": "Mao Zedong establece la República Popular China iniciando transformación de Asia.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1345,8 +1345,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1951)",
-          "description": "Acontecimiento histórico mundial durante el año 1951.",
+          "title": "Tratado de París",
+          "description": "Se firma el Tratado de París fundando la Comunidad Europea del Carbón y Acero.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1371,8 +1371,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1952)",
-          "description": "Acontecimiento histórico mundial durante el año 1952.",
+          "title": "Coronación de Isabel II",
+          "description": "Isabel II es coronada Reina de Reino Unido iniciando reinado que duraría setenta años.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1397,8 +1397,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1953)",
-          "description": "Acontecimiento histórico mundial durante el año 1953.",
+          "title": "Armisticio de Corea",
+          "description": "Se firma el armisticio terminando la Guerra de Corea manteniéndose división de península.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1423,8 +1423,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1954)",
-          "description": "Acontecimiento histórico mundial durante el año 1954.",
+          "title": "Batalla de Dien Bien Phu",
+          "description": "Derrota francesa en Indochina marca fin del colonialismo francés en Asia del Sureste.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1449,8 +1449,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1955)",
-          "description": "Acontecimiento histórico mundial durante el año 1955.",
+          "title": "Pacto de Varsovia",
+          "description": "Se funda el Pacto de Varsovia como contrapeso soviético a la OTAN en Guerra Fría.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1475,8 +1475,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1956)",
-          "description": "Acontecimiento histórico mundial durante el año 1956.",
+          "title": "Crisis de Suez",
+          "description": "Conflicto sobre Suez entre Egipto, Reino Unido, Francia e Israel por control del canal.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1501,8 +1501,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1957)",
-          "description": "Acontecimiento histórico mundial durante el año 1957.",
+          "title": "Sputnik es lanzado",
+          "description": "Unión Soviética lanza Sputnik primer satélite artificial iniciando carrera espacial.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1527,8 +1527,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1958)",
-          "description": "Acontecimiento histórico mundial durante el año 1958.",
+          "title": "Gran Salto Adelante en China",
+          "description": "Mao inicia Gran Salto Adelante generando transformaciones sociales y políticas en China.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1553,8 +1553,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1959)",
-          "description": "Acontecimiento histórico mundial durante el año 1959.",
+          "title": "Revolución Cubana",
+          "description": "Fidel Castro asciende al poder en Cuba instaurando régimen comunista en Caribe.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1579,8 +1579,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1960)",
-          "description": "Acontecimiento histórico mundial durante el año 1960.",
+          "title": "Primavera de Praga abortada",
+          "description": "Crisis política genera represión en Checoslovaquia bajo dominio soviético en Europa del Este.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1605,8 +1605,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1961)",
-          "description": "Acontecimiento histórico mundial durante el año 1961.",
+          "title": "Construcción del Muro de Berlín",
+          "description": "Alemania construye el Muro de Berlín dividiendo ciudad simbolizando división de Europa.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1631,8 +1631,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1962)",
-          "description": "Acontecimiento histórico mundial durante el año 1962.",
+          "title": "Crisis de los Misiles de Cuba",
+          "description": "Confrontación nuclear entre EE.UU. y Unión Soviética durante mayor crisis de Guerra Fría.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1657,8 +1657,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1963)",
-          "description": "Acontecimiento histórico mundial durante el año 1963.",
+          "title": "Asesinato de John F. Kennedy",
+          "description": "Presidente estadounidense Kennedy es asesinado en Dallas generando conmoción mundial.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1683,8 +1683,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1964)",
-          "description": "Acontecimiento histórico mundial durante el año 1964.",
+          "title": "Golpe de Estado en Brasil",
+          "description": "Golpe militar en Brasil derroca gobierno democrático iniciando dictadura militar.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1709,8 +1709,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1965)",
-          "description": "Acontecimiento histórico mundial durante el año 1965.",
+          "title": "Intervención en Vietnam",
+          "description": "EE.UU. intensifica intervención en Vietnam iniciando Guerra de Vietnam a gran escala.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1735,8 +1735,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1966)",
-          "description": "Acontecimiento histórico mundial durante el año 1966.",
+          "title": "Revolución Cultural en China",
+          "description": "Mao desencadena Revolución Cultural generando caos político y represión en China.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1761,8 +1761,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1967)",
-          "description": "Acontecimiento histórico mundial durante el año 1967.",
+          "title": "Guerra de los Seis Días",
+          "description": "Israel vence a coalición árabe en conflicto relámpago transformando Oriente Medio.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1813,8 +1813,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1969)",
-          "description": "Acontecimiento histórico mundial durante el año 1969.",
+          "title": "Llegada a la Luna",
+          "description": "Apolo 11 lleva a Neil Armstrong a la Luna en hito de exploración espacial humana.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1839,8 +1839,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1970)",
-          "description": "Acontecimiento histórico mundial durante el año 1970.",
+          "title": "Golpe en Chile",
+          "description": "Golpe militar derroca presidente Salvador Allende instaurando dictadura de Pinochet en Chile.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1865,8 +1865,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1971)",
-          "description": "Acontecimiento histórico mundial durante el año 1971.",
+          "title": "Bangladesh independiente",
+          "description": "Bangladesh se independiza de Pakistán tras guerra de liberación y crisis humanitaria.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1891,8 +1891,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1972)",
-          "description": "Acontecimiento histórico mundial durante el año 1972.",
+          "title": "Masacre de Múnich",
+          "description": "Terroristas palestinos asesinan atletas israelíes en Juegos Olímpicos de Múnich.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1917,8 +1917,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1973)",
-          "description": "Acontecimiento histórico mundial durante el año 1973.",
+          "title": "Crisis del petróleo y Yom Kippur",
+          "description": "Guerra de Yom Kippur genera embargo petrolero precipitando crisis energética global.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1943,8 +1943,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1974)",
-          "description": "Acontecimiento histórico mundial durante el año 1974.",
+          "title": "Fin de Guerra de Vietnam",
+          "description": "Vietnam se reúne bajo gobierno comunista terminando guerra con victória de norte.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -1995,8 +1995,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1976)",
-          "description": "Acontecimiento histórico mundial durante el año 1976.",
+          "title": "Vikingjarmana",
+          "description": "Apartheid en Sudáfrica genera represión y revueltas en Soweto contra segregación racial.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2021,8 +2021,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1977)",
-          "description": "Acontecimiento histórico mundial durante el año 1977.",
+          "title": "Llegada de Voyager",
+          "description": "NASA lanza Voyager llevando mensaje de humanidad hacia profundidades del espacio.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2073,8 +2073,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1979)",
-          "description": "Acontecimiento histórico mundial durante el año 1979.",
+          "title": "Revolución Iraní",
+          "description": "Revolución islámica en Irán derroca al Shah instaurando república islámica bajo Jomeini.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2099,8 +2099,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1980)",
-          "description": "Acontecimiento histórico mundial durante el año 1980.",
+          "title": "Guerra Iran-Irak",
+          "description": "Comienza guerra entre Irán e Irak causando cientos de miles de muertes en conflicto prolongado.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2125,8 +2125,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1981)",
-          "description": "Acontecimiento histórico mundial durante el año 1981.",
+          "title": "Intento de golpe en España",
+          "description": "Intento de golpe de estado en España es frustrado consolidando transición democrática.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2151,8 +2151,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1982)",
-          "description": "Acontecimiento histórico mundial durante el año 1982.",
+          "title": "Batalla de Malvinas",
+          "description": "Conflicto entre Reino Unido y Argentina por islas Malvinas resulta en victoria británica.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2177,8 +2177,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1983)",
-          "description": "Acontecimiento histórico mundial durante el año 1983.",
+          "title": "Star Wars anunciado",
+          "description": "Reagan anuncia Iniciativa de Defensa Estratégica generando nueva fase de carrera armamentística.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2203,8 +2203,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1984)",
-          "description": "Acontecimiento histórico mundial durante el año 1984.",
+          "title": "Crisis de hambre en Etiopía",
+          "description": "Hambruna generalizada en Etiopía causa miles de muertes generando respuesta humanitaria global.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2229,8 +2229,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1985)",
-          "description": "Acontecimiento histórico mundial durante el año 1985.",
+          "title": "Reunión Reagan-Gorbachov",
+          "description": "Reunión entre Reagan y Gorbachov inicia diálogo que llevaría a fin de Guerra Fría.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2281,8 +2281,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1987)",
-          "description": "Acontecimiento histórico mundial durante el año 1987.",
+          "title": "Acuerdo de Reykjavik",
+          "description": "Reagan y Gorbachov acuerdan reducción de armamento nuclear en cumbres históricas.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2307,8 +2307,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1988)",
-          "description": "Acontecimiento histórico mundial durante el año 1988.",
+          "title": "Fin de Guerra Iran-Irak",
+          "description": "Termina la Guerra Iran-Irak tras ocho años de conflicto devastador sin ganador claro.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2359,8 +2359,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1990)",
-          "description": "Acontecimiento histórico mundial durante el año 1990.",
+          "title": "Reunificación de Alemania",
+          "description": "Alemania se reunifica tras caída del Muro transformando geopolítica europea completamente.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2385,8 +2385,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1991)",
-          "description": "Acontecimiento histórico mundial durante el año 1991.",
+          "title": "Colapso de la Unión Soviética",
+          "description": "Unión Soviética se colapsa dando paso a estados independientes y Rusia postsoviética.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2437,8 +2437,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1993)",
-          "description": "Acontecimiento histórico mundial durante el año 1993.",
+          "title": "Acuerdos de Oslo",
+          "description": "Se firman Acuerdos de Oslo buscando solución para conflicto israelí-palestino.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2463,8 +2463,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1994)",
-          "description": "Acontecimiento histórico mundial durante el año 1994.",
+          "title": "Genocidio de Ruanda",
+          "description": "Genocidio en Ruanda causa cientos de miles de muertes en tragedia humanitaria africana.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2515,8 +2515,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1996)",
-          "description": "Acontecimiento histórico mundial durante el año 1996.",
+          "title": "Juegos Olímpicos de Atlanta",
+          "description": "Juegos Olímpicos de Atlanta representan recuperación post-Guerra Fría en Estados Unidos.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2541,8 +2541,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1997)",
-          "description": "Acontecimiento histórico mundial durante el año 1997.",
+          "title": "Devolución de Hong Kong",
+          "description": "Hong Kong es devuelta a China tras 156 años de dominio británico colonial.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2567,8 +2567,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1998)",
-          "description": "Acontecimiento histórico mundial durante el año 1998.",
+          "title": "Acuerdo de Viernes Santo",
+          "description": "Acuerdo de paz en Irlanda del Norte termina conflicto de treinta años en isla irlandesa.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2593,8 +2593,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (1999)",
-          "description": "Acontecimiento histórico mundial durante el año 1999.",
+          "title": "Guerra de Kosovo",
+          "description": "Conflicto en Kosovo genera intervención de OTAN contra represión serbia en Balcanes.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2645,8 +2645,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2001)",
-          "description": "Acontecimiento histórico mundial durante el año 2001.",
+          "title": "Ataques del 11 de Septiembre",
+          "description": "Ataques terroristas a Torres Gemelas en Nueva York cambian geopolítica mundial.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2671,8 +2671,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2002)",
-          "description": "Acontecimiento histórico mundial durante el año 2002.",
+          "title": "Creación del Euro",
+          "description": "Euro comienza a utilizarse como moneda única de la Unión Europea facilitando comercio.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2697,8 +2697,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2003)",
-          "description": "Acontecimiento histórico mundial durante el año 2003.",
+          "title": "Invasión de Irak",
+          "description": "EE.UU. invade Irak iniciando guerra prolongada basada en argumentos cuestionables.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2749,8 +2749,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2005)",
-          "description": "Acontecimiento histórico mundial durante el año 2005.",
+          "title": "Huracán Katrina",
+          "description": "Huracán Katrina causa devastación en Nueva Orleans exponiendo vulnerabilidades sociales.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2775,8 +2775,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2006)",
-          "description": "Acontecimiento histórico mundial durante el año 2006.",
+          "title": "Hamás gana elecciones palestinas",
+          "description": "Hamás gana elecciones legislativas palestinas generando cambio político en Palestina.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2801,8 +2801,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2007)",
-          "description": "Acontecimiento histórico mundial durante el año 2007.",
+          "title": "Crisis financiera global comienza",
+          "description": "Colapso del mercado inmobiliario de EE.UU. genera crisis financiera mundial.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2853,8 +2853,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2009)",
-          "description": "Acontecimiento histórico mundial durante el año 2009.",
+          "title": "Gran Depresión económica extrema",
+          "description": "Gran Recesión alcanza su punto máximo generando millones de desempleados globalmente.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2879,8 +2879,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2010)",
-          "description": "Acontecimiento histórico mundial durante el año 2010.",
+          "title": "Primavera Árabe",
+          "description": "Primavera Árabe genera revueltas y cambios políticos en Medio Oriente y Norte de África.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2931,8 +2931,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2012)",
-          "description": "Acontecimiento histórico mundial durante el año 2012.",
+          "title": "Reelección de Obama",
+          "description": "Barack Obama es reelecto presidente de Estados Unidos por segunda ocasión.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -2957,8 +2957,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2013)",
-          "description": "Acontecimiento histórico mundial durante el año 2013.",
+          "title": "Renuncia del Papa Benedicto XVI",
+          "description": "Benedicto XVI renuncia como Papa iniciando papado de Francisco que moderniza iglesia.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -3009,8 +3009,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2015)",
-          "description": "Acontecimiento histórico mundial durante el año 2015.",
+          "title": "Acuerdo de París sobre clima",
+          "description": "Acuerdo de París compromete naciones a reducir emisiones y combatir cambio climático.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -3035,8 +3035,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2016)",
-          "description": "Acontecimiento histórico mundial durante el año 2016.",
+          "title": "Donald Trump elegido presidente",
+          "description": "Donald Trump es elegido presidente de Estados Unidos generando cambios políticos drásticos.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -3061,8 +3061,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2017)",
-          "description": "Acontecimiento histórico mundial durante el año 2017.",
+          "title": "Independencia de Cataluña",
+          "description": "Crisis catalán genera referéndum sobre independencia con tensiones políticas extremas.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -3087,8 +3087,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2018)",
-          "description": "Acontecimiento histórico mundial durante el año 2018.",
+          "title": "Cumbre Trump-Kim en Singapur",
+          "description": "Cumbre histórica entre Trump y Kim Jong-un genera esperanza para desnuclearización coreana.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
@@ -3113,8 +3113,8 @@
         },
         {
           "region": "World",
-          "title": "Acontecimiento mundial (2019)",
-          "description": "Acontecimiento histórico mundial durante el año 2019.",
+          "title": "Protestas de Hong Kong",
+          "description": "Protestas masivas en Hong Kong contra proyecto de ley de extradición generar crisis política.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
           "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
         }
