@@ -3124,25 +3124,25 @@
       "year": 2020,
       "events": [
         {
-          "region": "Spain",
-          "title": "Año 2020 en España",
-          "description": "Historia y eventos importantes que ocurrieron en España durante 2020.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+          "region": "World",
+          "title": "Pandemia de COVID-19",
+          "description": "La pandemia de COVID-19 se convirtió en el evento más significativo de 2020. La enfermedad causada por el coronavirus SARS-CoV-2 se propagó globalmente, causando millones de muertes y transformando la vida cotidiana con confinamientos, vacunaciones y cambios en el trabajo remoto.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/COVID-19_Outbreak_World_Map.svg/640px-COVID-19_Outbreak_World_Map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19"
         },
         {
           "region": "Europe",
-          "title": "Acontecimiento en Europa (2020)",
-          "description": "Evento importante en Europa durante el año 2020.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+          "title": "Elecciones presidenciales en EE.UU.",
+          "description": "Joe Biden ganó las elecciones presidenciales estadounidenses de 2020, derrotando al presidente Donald Trump. Los resultados tuvieron implicaciones significativas para la política global.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_the_United_States.svg/640px-Flag_of_the_United_States.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Elecciones_presidenciales_de_Estados_Unidos_de_2020"
         },
         {
-          "region": "World",
-          "title": "Acontecimiento mundial (2020)",
-          "description": "Evento importante en el mundo durante el año 2020.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+          "region": "Spain",
+          "title": "Segunda ola de COVID en España",
+          "description": "España enfrentó su segunda ola de COVID-19 con nuevas restricciones y confinamientos selectivos para frenar la propagación del virus durante el otoño e invierno de 2020.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19_en_Espa%C3%B1a"
         }
       ]
     },
@@ -3150,25 +3150,25 @@
       "year": 2021,
       "events": [
         {
-          "region": "Spain",
-          "title": "Año 2021 en España",
-          "description": "Historia y eventos importantes que ocurrieron en España durante 2021.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+          "region": "World",
+          "title": "Campañas de vacunación contra COVID-19",
+          "description": "2021 marcó el año de las campañas masivas de vacunación contra el COVID-19. Millones de personas en todo el mundo recibieron sus primeras dosis de vacunas desarrolladas a velocidad récord, ofreciendo esperanza de fin de la pandemia.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponotus_flavomarginatus_ant.jpg/640px-Camponotus_flavomarginatus_ant.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Vacuna_contra_la_COVID-19"
         },
         {
           "region": "Europe",
-          "title": "Acontecimiento en Europa (2021)",
-          "description": "Evento importante en Europa durante el año 2021.",
+          "title": "Crisis de energía en Europa",
+          "description": "Europa experimentó una crisis energética significativa con precios del gas natural alcanzando máximos históricos, afectando tanto a hogares como a industrias durante el otoño de 2021.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+          "wikipedia": "https://es.wikipedia.org/wiki/Crisis_energ%C3%A9tica_de_Europa_de_2021"
         },
         {
-          "region": "World",
-          "title": "Acontecimiento mundial (2021)",
-          "description": "Evento importante en el mundo durante el año 2021.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+          "region": "Spain",
+          "title": "Recuperación económica en España",
+          "description": "España inició su recuperación económica con crecimiento del PIB impulsado por el turismo y la inversión europea del Fondo de Recuperación, alcanzando nuevos empleos.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Econom%C3%ADa_de_Espa%C3%B1a"
         }
       ]
     },
@@ -3176,25 +3176,25 @@
       "year": 2022,
       "events": [
         {
-          "region": "Spain",
-          "title": "Año 2022 en España",
-          "description": "Historia y eventos importantes que ocurrieron en España durante 2022.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+          "region": "World",
+          "title": "Invasión rusa de Ucrania",
+          "description": "El 24 de febrero de 2022, Rusia lanzó una invasión militar a gran escala de Ucrania, causando una de las mayores crisis humanitarias de Europa en décadas, desplazamientos masivos de población y cambios geopolíticos globales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Ukraine.svg/640px-Flag_of_Ukraine.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_rusa_de_Ucrania_de_2022"
         },
         {
           "region": "Europe",
-          "title": "Acontecimiento en Europa (2022)",
-          "description": "Evento importante en Europa durante el año 2022.",
+          "title": "Crisis energética y de inflación",
+          "description": "Europa enfrentó inflación récord e incertidumbre energética como consecuencia de la guerra en Ucrania, con crisis de gas natural e impacto económico significativo en todos los países.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+          "wikipedia": "https://es.wikipedia.org/wiki/Crisis_de_precios_de_energ%C3%ADa_en_Europa"
         },
         {
-          "region": "World",
-          "title": "Acontecimiento mundial (2022)",
-          "description": "Evento importante en el mundo durante el año 2022.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+          "region": "Spain",
+          "title": "Elecciones generales en España",
+          "description": "España celebró elecciones generales el 28 de julio de 2022, con resultados fragmentados y negociaciones complejas para formar gobierno. Pedro Sánchez fue reelegido presidente.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_2022"
         }
       ]
     },
@@ -3202,25 +3202,25 @@
       "year": 2023,
       "events": [
         {
-          "region": "Spain",
-          "title": "Año 2023 en España",
-          "description": "Historia y eventos importantes que ocurrieron en España durante 2023.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+          "region": "World",
+          "title": "Auge de la Inteligencia Artificial",
+          "description": "2023 vio la explosión de las tecnologías de IA generativa, especialmente con el lanzamiento de ChatGPT a nivel masivo, transformando la tecnología, educación y mundo empresarial globalmente.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/640px-ChatGPT_logo.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/GPT-4"
         },
         {
           "region": "Europe",
-          "title": "Acontecimiento en Europa (2023)",
-          "description": "Evento importante en Europa durante el año 2023.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+          "title": "Terremoto en Turquía y Siria",
+          "description": "Un devastador terremoto de magnitud 7.8 afectó Turquía y Siria en febrero de 2023, causando más de 50,000 muertes y dejando millones de personas sin hogar, siendo uno de los peores desastres naturales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Flag_of_Turkey.svg/640px-Flag_of_Turkey.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Terremoto_de_Turqu%C3%ADa_y_Siria_de_2023"
         },
         {
-          "region": "World",
-          "title": "Acontecimiento mundial (2023)",
-          "description": "Evento importante en el mundo durante el año 2023.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+          "region": "Spain",
+          "title": "Crecimiento turístico récord",
+          "description": "España alcanzó cifras récord de turismo internacional en 2023 con más de 85 millones de visitantes, consolidándose como uno de los principales destinos turísticos mundiales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Turismo_en_Espa%C3%B1a"
         }
       ]
     },
@@ -3228,25 +3228,25 @@
       "year": 2024,
       "events": [
         {
-          "region": "Spain",
-          "title": "Año 2024 en España",
-          "description": "Historia y eventos importantes que ocurrieron en España durante 2024.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+          "region": "World",
+          "title": "Elecciones globales históricas",
+          "description": "2024 fue el año con más elecciones presidenciales simultáneas en la historia, incluyendo en India, México, Indonesia y Bangladesh, con implicaciones significativas para la política global.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ballot_box.svg/640px-Ballot_box.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/2024"
         },
         {
           "region": "Europe",
-          "title": "Acontecimiento en Europa (2024)",
-          "description": "Evento importante en Europa durante el año 2024.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+          "title": "Juegos Olímpicos París 2024",
+          "description": "París acogió los Juegos Olímpicos de 2024 con participación de atletas de todo el mundo. El evento fue un éxito cultural y deportivo que mostró la resiliencia de la ciudad.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Paris_2024_logo.svg/640px-Paris_2024_logo.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Par%C3%ADs_2024"
         },
         {
-          "region": "World",
-          "title": "Acontecimiento mundial (2024)",
-          "description": "Evento importante en el mundo durante el año 2024.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+          "region": "Spain",
+          "title": "Gobierno de coalición consolidado",
+          "description": "El gobierno de coalición entre PSOE y Sumar de Pedro Sánchez se consolidó en 2024 con aprobación de presupuestos y reformas legislativas importantes para España.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/XIII_Legislatura_de_Espa%C3%B1a"
         }
       ]
     },
@@ -3254,25 +3254,25 @@
       "year": 2025,
       "events": [
         {
-          "region": "Spain",
-          "title": "Año 2025 en España",
-          "description": "Historia y eventos importantes que ocurrieron en España durante 2025.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+          "region": "World",
+          "title": "Avances en sostenibilidad",
+          "description": "2025 marca un año crucial en la agenda de sostenibilidad global, con inversiones récord en energías renovables, tecnologías limpias y compromisos para reducir emisiones de carbono en todo el mundo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Objetivos_de_Desarrollo_Sostenible"
         },
         {
           "region": "Europe",
-          "title": "Acontecimiento en Europa (2025)",
-          "description": "Evento importante en Europa durante el año 2025.",
+          "title": "Consolidación de la Unión Europea",
+          "description": "La UE continúa con sus estrategias de defensa autónoma, transformación digital y transición energética, fortaleciendo su posición geopolítica independiente.",
           "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+          "wikipedia": "https://es.wikipedia.org/wiki/Uni%C3%B3n_Europea"
         },
         {
-          "region": "World",
-          "title": "Acontecimiento mundial (2025)",
-          "description": "Evento importante en el mundo durante el año 2025.",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
-          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+          "region": "Spain",
+          "title": "Transformación digital española",
+          "description": "España acelera su transformación digital con inversión en startups tecnológicas, talento digital y consolidación de su posición como hub tecnológico europeo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Econom%C3%ADa_digital"
         }
       ]
     }
