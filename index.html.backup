@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Edad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 1rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            padding: 2.5rem;
+        }
+        .result-card {
+            background-color: #f9fafb;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            border: 1px solid #e5e7eb;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+        th, td {
+            padding: 0.75rem;
+            border: 1px solid #cbd5e1;
+            text-align: left;
+        }
+        th {
+            background-color: #dbeafe;
+            font-weight: bold;
+        }
+        .gemini-card {
+            background-color: #e0f2fe;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            margin-top: 1.5rem;
+            border: 1px solid #93c5fd;
+        }
+        /* Timeline Styles */
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #3b82f6, #06b6d4, #3b82f6);
+            border-radius: 2px;
+        }
+        .timeline-item {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-left: 0;
+            margin-right: auto;
+            width: 48%;
+            text-align: right;
+            padding-right: 25px;
+        }
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: auto;
+            margin-right: 0;
+            width: 48%;
+            padding-left: 25px;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 16px;
+            height: 16px;
+            background-color: #3b82f6;
+            border: 4px solid #e0f2fe;
+            border-radius: 50%;
+            top: 10px;
+            z-index: 10;
+            transition: all 0.3s ease;
+        }
+        .timeline-item:hover .timeline-dot {
+            width: 24px;
+            height: 24px;
+            top: 6px;
+            background-color: #06b6d4;
+            box-shadow: 0 0 10px rgba(6, 182, 212, 0.6);
+        }
+        .timeline-content {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #3b82f6;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            animation: slideIn 0.5s ease-out forwards;
+            opacity: 0;
+        }
+        .timeline-item:nth-child(1) .timeline-content { animation-delay: 0.1s; }
+        .timeline-item:nth-child(2) .timeline-content { animation-delay: 0.2s; }
+        .timeline-item:nth-child(3) .timeline-content { animation-delay: 0.3s; }
+        .timeline-item:nth-child(4) .timeline-content { animation-delay: 0.4s; }
+        .timeline-item:nth-child(5) .timeline-content { animation-delay: 0.5s; }
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+        }
+        .timeline-item:hover .timeline-content {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px);
+            border-left-color: #06b6d4;
+            background: linear-gradient(135deg, #cffafe 0%, #a5f3fc 100%);
+        }
+        .timeline-year {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #0c4a6e;
+            margin-bottom: 8px;
+        }
+        .timeline-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #0369a1;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+        .timeline-event {
+            font-size: 0.95rem;
+            color: #334155;
+            line-height: 1.5;
+        }
+        /* Event Card Styles */
+        .event-card {
+            margin-bottom: 12px;
+            cursor: pointer;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        .event-card-header {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 6px;
+            cursor: pointer;
+            user-select: none;
+            gap: 8px;
+        }
+        .event-card-header:hover {
+            background: rgba(255, 255, 255, 0.8);
+            transform: translateX(5px);
+        }
+        .event-card-header > :first-child {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .event-card-title {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #1e40af;
+            flex: 1;
+        }
+        .event-card-region {
+            font-size: 0.7rem;
+            background: #dbeafe;
+            color: #0c4a6e;
+            padding: 3px 8px;
+            border-radius: 4px;
+            margin-left: 8px;
+            font-weight: 600;
+        }
+        .expand-icon {
+            margin-left: 8px;
+            transition: transform 0.3s ease;
+            font-size: 1.2rem;
+        }
+        .expand-icon.expanded {
+            transform: rotate(180deg);
+        }
+        .event-card-preview {
+            width: 100%;
+            font-size: 0.8rem;
+            color: #64748b;
+            line-height: 1.4;
+        }
+        .preview-text {
+            margin: 0;
+            display: inline;
+        }
+        .read-more-link {
+            color: #3b82f6;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 4px;
+            transition: color 0.2s ease;
+        }
+        .read-more-link:hover {
+            color: #2563eb;
+            text-decoration: underline;
+        }
+        .event-card-content {
+            display: none;
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.9);
+            border-top: 2px solid #3b82f6;
+        }
+        .event-card-content.expanded {
+            display: block;
+            animation: slideDown 0.3s ease-out;
+        }
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                max-height: 0;
+            }
+            to {
+                opacity: 1;
+                max-height: 1000px;
+            }
+        }
+        .event-image {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 12px;
+        }
+        .event-description {
+            font-size: 0.85rem;
+            color: #475569;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        .event-links {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+        }
+        .wiki-link {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        .wiki-link:hover {
+            background: #2563eb;
+            transform: scale(1.05);
+        }
+        .year-container {
+            background: rgba(255, 255, 255, 0.5);
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 16px;
+            }
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                width: calc(100% - 60px);
+                margin-left: auto;
+                margin-right: 0;
+                padding-left: 15px;
+                padding-right: 0;
+                text-align: left;
+            }
+            .timeline-dot {
+                left: 16px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-4">
+
+    <div class="container max-w-lg w-full text-center">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6">Calculadora de Edad</h1>
+        
+        <div class="mb-6">
+            <label for="birthdate" class="block text-gray-700 font-medium mb-2 text-left">Ingresa tu fecha de nacimiento:</label>
+            <input type="date" id="birthdate" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200">
+            <p id="formatted-date-display" class="text-sm text-gray-500 mt-2 text-left hidden"></p>
+        </div>
+        
+        <div id="results" class="hidden text-left">
+            <div class="result-card">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Tiempo transcurrido:</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Años:</span> <span id="years" class="font-bold text-blue-600">0</span>
+                    </p>
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Meses:</span> <span id="months" class="font-bold text-blue-600">0</span>
+                    </p>
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Semanas:</span> <span id="weeks" class="font-bold text-blue-600">0</span>
+                    </p>
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Días:</span> <span id="days" class="font-bold text-blue-600">0</span>
+                    </p>
+                    <p class="text-gray-600">
+                        <span class="font-semibold text-gray-800">Horas:</span> <span id="hours" class="font-bold text-blue-600">0</span>
+                    </p>
+                </div>
+            </div>
+
+            <button id="gemini-btn" class="w-full bg-blue-500 text-white font-bold py-3 px-6 rounded-md mt-6 hover:bg-blue-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:bg-gray-400">
+                ⌛ Obtener acontecimientos históricos ⌛
+            </button>
+            
+            <div id="gemini-output" class="gemini-card hidden mt-4">
+                <!-- Timeline se generará aquí -->
+            </div>
+
+        <p id="error-message" class="hidden text-red-500 mt-4"></p>
+    </div>
+
+    <script>
+        
+        const birthdateInput = document.getElementById('birthdate');
+        const resultsDiv = document.getElementById('results');
+        const errorMessage = document.getElementById('error-message');
+        const geminiBtn = document.getElementById('gemini-btn');
+        const geminiOutputDiv = document.getElementById('gemini-output');
+        
+        let calculatedYears = 0;
+        let calculatedMonths = 0;
+        let calculatedDays = 0;
+
+        // Set max date to today
+        const todayStr = new Date().toISOString().split('T')[0];
+        birthdateInput.max = todayStr;
+
+        birthdateInput.addEventListener('change', () => {
+            calculateAge();
+            geminiOutputDiv.classList.add('hidden');
+            geminiOutputDiv.innerHTML = '';
+        });
+        geminiBtn.addEventListener('click', generateHistoricalContent);
+
+        function calculateAge() {
+            const birthdate = new Date(birthdateInput.value + 'T00:00:00');
+            const today = new Date();
+
+            if (isNaN(birthdate.getTime())) {
+                errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida.';
+                errorMessage.classList.remove('hidden');
+                resultsDiv.classList.add('hidden');
+                return;
+            }
+
+            if (birthdate > today) {
+                errorMessage.textContent = 'La fecha de nacimiento NO puede ser en el futuro.';
+                errorMessage.classList.remove('hidden');
+                resultsDiv.classList.add('hidden');
+                return;
+            }
+
+            errorMessage.classList.add('hidden');
+            resultsDiv.classList.remove('hidden');
+
+            const totalMilliseconds = today - birthdate;
+            
+            const hours = Math.floor(totalMilliseconds / (1000 * 60 * 60));
+            const days = Math.floor(totalMilliseconds / (1000 * 60 * 60 * 24));
+            const weeks = Math.floor(days / 7);
+            const totalMonths = Math.floor(days / 30.44);
+            const totalYears = Math.floor(days / 365.25);
+
+            calculatedYears = totalYears;
+
+            document.querySelector('#years').textContent = totalYears.toLocaleString();
+            document.querySelector('#months').textContent = totalMonths.toLocaleString();
+            document.querySelector('#weeks').textContent = weeks.toLocaleString();
+            document.querySelector('#days').textContent = days.toLocaleString();
+            document.querySelector('#hours').textContent = hours.toLocaleString();
+        }
+
+        // --- Funciones para generar contenido histórico ---
+
+        async function generateHistoricalContent() {
+            if (!birthdateInput.value) {
+                errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida y calcula la edad primero.';
+                errorMessage.classList.remove('hidden');
+                return;
+            }
+
+            geminiBtn.disabled = true;
+            geminiBtn.textContent = 'Cargando acontecimientos...';
+            geminiOutputDiv.classList.remove('hidden');
+            geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">Generando el pasado, por favor espera...</p>';
+
+            try {
+                const birthYear = new Date(birthdateInput.value + 'T00:00:00').getFullYear();
+                const events = await getHistoricalEvents(birthYear);
+                displayEventsAsTimeline(events);
+            } catch (error) {
+                console.error('Error generating historical content:', error);
+                const errorMsg = error.message || error.toString();
+                geminiOutputDiv.innerHTML = `<p class="text-red-500 text-center">Error: ${errorMsg}</p>`;
+            } finally {
+                geminiBtn.disabled = false;
+                geminiBtn.textContent = '⌛ Obtener acontecimientos históricos ⌛';
+            }
+        }
+
+        async function getHistoricalEvents(birthYear) {
+            const currentYear = new Date().getFullYear();
+            
+            try {
+                // Carga eventos del fichero local
+                const response = await fetch('./events.json');
+                if (!response.ok) throw new Error('No se pudo cargar el archivo de eventos');
+                
+                const data = await response.json();
+                const allEvents = data.events;
+                
+                // Filtra eventos desde el año de nacimiento hasta hoy
+                const filteredEvents = allEvents.filter(event => {
+                    const year = parseInt(event.year);
+                    return year >= birthYear && year <= currentYear;
+                });
+                
+                // Devuelve la estructura enriquecida con todos los detalles
+                return filteredEvents;
+            } catch (error) {
+                console.error('Error cargando eventos:', error);
+                throw new Error('No se pudo cargar los eventos históricos');
+            }
+        }
+
+        function displayEventsAsTimeline(events) {
+            geminiOutputDiv.innerHTML = '';
+            
+            if (!Array.isArray(events) || events.length === 0) {
+                geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">No se encontraron eventos históricos para este período.</p>';
+                return;
+            }
+
+            const timeline = document.createElement('div');
+            timeline.classList.add('timeline');
+            
+            events.forEach((yearData, index) => {
+                const item = document.createElement('div');
+                item.classList.add('timeline-item');
+                
+                const dot = document.createElement('div');
+                dot.classList.add('timeline-dot');
+                
+                const content = document.createElement('div');
+                content.classList.add('timeline-content');
+                
+                // Año principal
+                const yearContainer = document.createElement('div');
+                yearContainer.classList.add('year-container');
+                const year = document.createElement('div');
+                year.classList.add('timeline-year');
+                year.textContent = yearData.year;
+                yearContainer.appendChild(year);
+                content.appendChild(yearContainer);
+                
+                // Renderizar solo el evento más importante del año
+                if (yearData.events && Array.isArray(yearData.events) && yearData.events.length > 0) {
+                    // Priorizar eventos: World > Europe/Spain > otros
+                    const sortedEvents = [...yearData.events].sort((a, b) => {
+                        const priorityMap = { 'World': 0, 'Europe': 1, 'Spain': 2 };
+                        const priorityA = priorityMap[a.region] ?? 3;
+                        const priorityB = priorityMap[b.region] ?? 3;
+                        return priorityA - priorityB;
+                    });
+                    
+                    // Mostrar solo el evento principal
+                    const mainEvent = sortedEvents[0];
+                    const eventCard = createEventCard(mainEvent);
+                    content.appendChild(eventCard);
+                }
+                
+                item.appendChild(dot);
+                item.appendChild(content);
+                timeline.appendChild(item);
+            });
+            
+            geminiOutputDiv.appendChild(timeline);
+        }
+        
+        function createEventCard(event) {
+            const card = document.createElement('div');
+            card.classList.add('event-card');
+            
+            const header = document.createElement('div');
+            header.classList.add('event-card-header');
+            
+            // First row: title, region, expand icon
+            const titleRow = document.createElement('div');
+            titleRow.style.display = 'flex';
+            titleRow.style.alignItems = 'center';
+            titleRow.style.justifyContent = 'space-between';
+            titleRow.style.width = '100%';
+            
+            const titleDiv = document.createElement('div');
+            titleDiv.classList.add('event-card-title');
+            titleDiv.textContent = event.title;
+            
+            const regionDiv = document.createElement('div');
+            regionDiv.classList.add('event-card-region');
+            regionDiv.textContent = getRegionEmoji(event.region) + ' ' + event.region;
+            
+            const expandIcon = document.createElement('div');
+            expandIcon.classList.add('expand-icon');
+            expandIcon.textContent = '▼';
+            
+            titleRow.appendChild(titleDiv);
+            titleRow.appendChild(regionDiv);
+            titleRow.appendChild(expandIcon);
+            header.appendChild(titleRow);
+            
+            // Second row: preview section
+            const previewDiv = document.createElement('div');
+            previewDiv.classList.add('event-card-preview');
+            
+            const shortDescription = truncateText(event.description, 120);
+            const previewText = document.createElement('p');
+            previewText.classList.add('preview-text');
+            previewText.textContent = shortDescription;
+            previewDiv.appendChild(previewText);
+            
+            let readMoreLink = null;
+            if (event.description.length > 120) {
+                readMoreLink = document.createElement('a');
+                readMoreLink.classList.add('read-more-link');
+                readMoreLink.href = '#';
+                readMoreLink.textContent = 'Leer más...';
+                readMoreLink.onclick = (e) => {
+                    e.preventDefault();
+                    contentDiv.classList.toggle('expanded');
+                    expandIcon.classList.toggle('expanded');
+                };
+                previewDiv.appendChild(readMoreLink);
+            }
+            
+            header.appendChild(previewDiv);
+            
+            // Full content section (collapsible)
+            const contentDiv = document.createElement('div');
+            contentDiv.classList.add('event-card-content');
+            
+            // Imagen
+            if (event.image) {
+                const img = document.createElement('img');
+                img.classList.add('event-image');
+                img.src = event.image;
+                img.alt = event.title;
+                img.onerror = function() { this.style.display = 'none'; };
+                contentDiv.appendChild(img);
+            }
+            
+            // Descripción completa
+            const fullDescription = document.createElement('div');
+            fullDescription.classList.add('event-description');
+            fullDescription.textContent = event.description;
+            contentDiv.appendChild(fullDescription);
+            
+            // Links
+            if (event.wikipedia) {
+                const linksDiv = document.createElement('div');
+                linksDiv.classList.add('event-links');
+                
+                const wikiLink = document.createElement('a');
+                wikiLink.classList.add('wiki-link');
+                wikiLink.href = event.wikipedia;
+                wikiLink.target = '_blank';
+                wikiLink.rel = 'noopener noreferrer';
+                wikiLink.textContent = '📖 Leer en Wikipedia';
+                
+                linksDiv.appendChild(wikiLink);
+                contentDiv.appendChild(linksDiv);
+            }
+            
+            card.appendChild(header);
+            card.appendChild(contentDiv);
+            
+            // Toggle expandible
+            titleRow.addEventListener('click', function(e) {
+                if (!readMoreLink || (e.target !== readMoreLink && !e.target.closest('.read-more-link'))) {
+                    contentDiv.classList.toggle('expanded');
+                    expandIcon.classList.toggle('expanded');
+                }
+            });
+            
+            return card;
+        }
+        
+        function truncateText(text, maxLength) {
+            if (text.length <= maxLength) return text;
+            return text.substring(0, maxLength).trim() + '...';
+        }
+        
+        function getRegionEmoji(region) {
+            const emojis = {
+                'Spain': '🇪🇸',
+                'Europe': '🌍',
+                'Americas': '🌎',
+                'Asia': '🗻',
+                'Africa': '🦁',
+                'World': '🌐'
+            };
+            return emojis[region] || '🌍';
+        }
+    </script>
+</body>
+</html>
