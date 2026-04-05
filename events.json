@@ -1,130 +1,472 @@
 {
   "events": [
-    {"year": 1900, "spain": "Restauración borbónica: Reinado de Alfonso XIII comienza", "western_europe": "París: Exposición Universal", "americas": "Estados Unidos es potencia mundial tras Guerra Hispanoamericana"},
-    {"year": 1901, "spain": "Fundación del PSOE se consolida como partido", "western_europe": "Muerte de la Reina Victoria en Reino Unido", "americas": "Cuba se convierte en protectorado estadounidense"},
-    {"year": 1902, "spain": "Crisis política española, regeneracionismo de Unamuno", "western_europe": "Fin de la Guerra de los Bóer en Sudáfrica", "americas": "Canal de Panamá comienza construcción"},
-    {"year": 1903, "spain": "Reforma militar española", "western_europe": "Alianza franco-inglesa (Entente Cordiale)", "americas": "Primer vuelo de los Hermanos Wright"},
-    {"year": 1904, "spain": "Se agrava la cuestión social en minería", "western_europe": "Tratado de Defensa Mutua Francia-España", "americas": "Teodoro Roosevelt gana Premio Nobel de Paz"},
-    {"year": 1905, "spain": "Crisis ministerial: Gobierno de Montero Ríos", "western_europe": "Revolución en Rusia (Domingo Sangriento)", "americas": "Huelga en minas estadounidenses"},
-    {"year": 1906, "spain": "Conferencia de Algeciras: España y Francia en Marruecos", "western_europe": "Terremoto de San Francisco", "americas": "Brasil se convierte en mayor productor de café"},
-    {"year": 1907, "spain": "Crisis económica en España", "western_europe": "Conferencia de La Haya: Derecho Internacional", "americas": "Pánico financiero estadounidense"},
-    {"year": 1908, "spain": "Semana Sangrienta en Barcelona por conflicto laboral", "western_europe": "Bosnia-Herzegovina anexionada por Austria-Hungría", "americas": "Felipe Calderón presidente de México"},
-    {"year": 1909, "spain": "Semana Trágica en Barcelona: represión obrera", "western_europe": "Peary llega al Polo Norte", "americas": "Taft presidente de Estados Unidos"},
-    {"year": 1910, "spain": "Huelga general de ferrocarriles", "western_europe": "Muerte del Rey Eduardo VII, reinado de Jorge V", "americas": "Revolución Mexicana comienza"},
-    {"year": 1911, "spain": "Reforma militar y conflicto sindical", "western_europe": "Crisis marroquí de Agadir", "americas": "China: Revolución de Sun Yat-sen"},
-    {"year": 1912, "spain": "Gobierno Canalejas: reformas liberales", "western_europe": "Hundimiento del Titanic", "americas": "Wilson elegido presidente de EEUU"},
-    {"year": 1913, "spain": "Asesinato de Canalejas: crisis política grave", "western_europe": "Segunda Guerra Balcánica", "americas": "Deuda mexicana con Estados Unidos"},
-    {"year": 1914, "spain": "España neutral en Primera Guerra Mundial", "western_europe": "Julio: Comienza Primera Guerra Mundial", "americas": "Inauguración del Canal de Panamá"},
-    {"year": 1915, "spain": "España sufre economía de guerra sin participar", "western_europe": "Batalla de Verdún comienza", "americas": "Sinking del Lusitania"},
-    {"year": 1916, "spain": "Gobierno interino: problemas de suministro", "western_europe": "Batalla del Somme: 1 millón de bajas", "americas": "Villa ataca Columbus, Nuevo México"},
-    {"year": 1917, "spain": "Crisis revolucionaria obrera en minería", "western_europe": "Revolución Rusa: Octubre / Noviembre", "americas": "Estados Unidos entra en Primera Guerra Mundial"},
-    {"year": 1918, "spain": "Gripe española: 250,000 muertes", "western_europe": "Fin de Primera Guerra Mundial (11-11)", "americas": "Fin de Primera Guerra Mundial para EEUU"},
-    {"year": 1919, "spain": "Huelga general revolucionaria de 24 horas", "western_europe": "Tratado de Versalles", "americas": "Prohibición de bebidas alcohólicas (Ley Seca)"},
-    {"year": 1920, "spain": "Creación del Partido Comunista Español", "western_europe": "Tratado de Versalles entra en vigor", "americas": "Mujeres obtienen derecho al voto en EEUU"},
-    {"year": 1921, "spain": "Desastre de Annual: derrota colonial en Marruecos", "western_europe": "Crisis económica postbélica", "americas": "Harding presidente de Estados Unidos"},
-    {"year": 1922, "spain": "Reformas militares de Alcalá-Zamora", "western_europe": "Mussolini toma poder en Italia", "americas": "Trotski expulsado del poder en URSS"},
-    {"year": 1923, "spain": "Golpe de Primo de Rivera: inicio de Dictadura", "western_europe": "Ocupación francesa del Ruhr", "americas": "Muerte de Harding, Coolidge presidente"},
-    {"year": 1924, "spain": "Directorio militar de Primo de Rivera", "western_europe": "Alemania estabiliza economía con Plan Dawes", "americas": "Conflicto de límites entre Bolivia y Paraguay"},
-    {"year": 1925, "spain": "Fin de la guerra de Marruecos con Rif derrotado", "western_europe": "Tratado de Locarno: pacto de paz europeo", "americas": "Caudillo Obregón muere en México"},
-    {"year": 1926, "spain": "Golpe de estado en Portugal: Salazar sube al poder", "western_europe": "Alemania ingresa a Sociedad de Naciones", "americas": "Cristeros: rebelión religiosa en México"},
-    {"year": 1927, "spain": "Represión bajo Primo de Rivera", "western_europe": "Ejecución de Sacco y Vanzetti en EEUU", "americas": "Lindbergh completa vuelo transatlántico"},
-    {"year": 1928, "spain": "Disolver Cortes bajo Primo de Rivera", "western_europe": "Pacto Briand-Kellogg de renuncia a la guerra", "americas": "Convención Panamericana en La Habana"},
-    {"year": 1929, "spain": "Crisis del gobierno Primo de Rivera", "western_europe": "Crash de Wall Street: Gran Depresión", "americas": "Inicio de Gran Depresión en EEUU"},
-    {"year": 1930, "spain": "Caída de Primo de Rivera: Berenguer asume", "western_europe": "Elecciones en Alemania: ascenso nazi", "americas": "Revolución en Brasil: Getúlio Vargas toma poder"},
-    {"year": 1931, "spain": "Segunda República Española proclamada", "western_europe": "La Grande Depresión profundiza crisis", "americas": "Depresión económica impacta América Latina"},
-    {"year": 1932, "spain": "Tenentada comunista en España", "western_europe": "Hitler candidato a presidencia alemana", "americas": "Bonnie y Clyde mueren en tiroteo"},
-    {"year": 1933, "spain": "Derechas ganan elecciones en España", "western_europe": "Hitler canciller alemán: Dictadura nazi", "americas": "Roosevelt gana elecciones: New Deal"},
-    {"year": 1934, "spain": "Revolución asturiana: represión franquista", "western_europe": "La Noche de los Cristales Rotos", "americas": "Muerte de Bonnie y Clyde en Brasil"},
-    {"year": 1935, "spain": "Izquierdas vencen en elecciones: Frente Popular", "western_europe": "Italia invade Etiopía bajo Mussolini", "americas": "Huracán del Polvo en EEUU (Dust Bowl)"},
-    {"year": 1936, "spain": "Febrero: Victoria del Frente Popular / Julio: Sublevación militar / Guerra Civil comienza", "western_europe": "Remilitarización alemana del Ruhr", "americas": "Muerte de FDR: potencia estadounidense"},
-    {"year": 1937, "spain": "Guerra Civil española prosigue: Batalla del Ebro", "western_europe": "Guernica bombardeada por aviación fascista", "americas": "Inauguración del puente Golden Gate en SF"},
-    {"year": 1938, "spain": "Batalla del Ebro: derrota republicana", "western_europe": "Anschluss: unión Alemania-Austria", "americas": "México nacionaliza petróleo de EEUU"},
-    {"year": 1939, "spain": "Franco vence en Guerra Civil (1 de abril)", "western_europe": "Invasión de Polonia: comienza IIGM", "americas": "EEUU se mantiene neutral ante IIGM"},
-    {"year": 1940, "spain": "Encuentro Franco-Hitler en Hendaya", "western_europe": "Caída de Francia ante Alemania nazi", "americas": "Roosevelt reelegido para tercer mandato"},
-    {"year": 1941, "spain": "Régimen franquista aislado diplomaticamente", "western_europe": "Alemania invade URSS (Operación Barbarroja)", "americas": "Ataque a Pearl Harbor: EEUU entra en IIGM"},
-    {"year": 1942, "spain": "España sufre hambruna durante posguerra", "western_europe": "Batalla de Stalingrado comienza", "americas": "General MacArthur en el Pacífico"},
-    {"year": 1943, "spain": "Crisis alimentaria continúa", "western_europe": "Caída de Mussolini en Italia", "americas": "Batalla de Midway: punto de inflexión"},
-    {"year": 1944, "spain": "La economía española permanece en crisis", "western_europe": "Desembarco de Normandía (D-Day)", "americas": "MacArthur libera Filipinas"},
-    {"year": 1945, "spain": "Franco permanece en poder tras IIGM", "western_europe": "Fin de Segunda Guerra Mundial (Mayo)", "americas": "Bombas atómicas en Hiroshima y Nagasaki"},
-    {"year": 1946, "spain": "España aislada internacionalmente: Bloqueo de ONU", "western_europe": "Juicios de Núremberg para criminales de guerra", "americas": "Independencia de Filipinas"},
-    {"year": 1947, "spain": "España vuelve a ser reino nominalmente", "western_europe": "Plan Marshall para reconstrucción europea", "americas": "Independencia de India y Pakistán"},
-    {"year": 1948, "spain": "Represión política continúa bajo Franco", "western_europe": "Creación de Estado de Israel", "americas": "Asesinato de Gandhi en India"},
-    {"year": 1949, "spain": "Economía española aislada pero estable", "western_europe": "Creación de OTAN", "americas": "Revolución comunista en China"},
-    {"year": 1950, "spain": "España intenta reinsertarse internacionalmente", "western_europe": "Guerra de Corea comienza", "americas": "Corea del Norte invade Corea del Sur"},
-    {"year": 1951, "spain": "Negociaciones con EEUU para bases militares", "western_europe": "CECA: tratado de carbón y acero", "americas": "Eisenhower como comandante OTAN"},
-    {"year": 1952, "spain": "Primera base estadounidense en Morón de la Frontera", "western_europe": "Muerte de Jorge VI: Isabel II reina", "americas": "Eisenhower elegido presidente EEUU"},
-    {"year": 1953, "spain": "Concordato España-Vaticano", "western_europe": "Coronación de Isabel II de Reino Unido", "americas": "Golpe en Irán: Shah recupera poder"},
-    {"year": 1954, "spain": "España integrada en Alianza Occidental", "western_europe": "Derrota francesa en Indochina (Dien Bien Phu)", "americas": "Revolucionarios derrocan Shah en Irán"},
-    {"year": 1955, "spain": "España ingresa a Naciones Unidas (ONU)", "western_europe": "Tratado de Varsovia: Bloque Comunista", "americas": "Conferencia de Bandung: Movimiento No Alineado"},
-    {"year": 1956, "spain": "Marruecos e independencia: fin del protectorado", "western_europe": "Crisis de Suez: conflicto Egipto-Israel", "americas": "Revolución Cubana comienza (Castro sube)"},
-    {"year": 1957, "spain": "Gobierno de López Ibarra: reformas económicas", "western_europe": "Tratado de Roma: creación CEE", "americas": "URSS lanza Sputnik 1"},
-    {"year": 1958, "spain": "Nueva peseta se crea: revalorización", "western_europe": "Quinta República francesa bajo De Gaulle", "americas": "NASA creada por EEUU"},
-    {"year": 1959, "spain": "Plan de Estabilización económica español", "western_europe": "EFTA creada como alternativa a CEE", "americas": "Fidel Castro toma poder en Cuba"},
-    {"year": 1960, "spain": "Crecimiento económico: milagro español comienza", "western_europe": "Seis países europeos crean mercado común", "americas": "Conferencia de París: fracasa cumbre OTAN"},
-    {"year": 1961, "spain": "Turismo masivo comienza en España", "western_europe": "Construcción del Muro de Berlín", "americas": "Invasión de Bahía de Cochinos: fracaso"},
-    {"year": 1962, "spain": "Huelga de minería en Asturias", "western_europe": "Crisis de los misiles de Cuba", "americas": "Crisis de los misiles: brink of WWIII"},
-    {"year": 1963, "spain": "Gobierno de Fraga: aperturismo relativo", "western_europe": "Asesinato de Kennedy en Dallas", "americas": "Marcha en Washington de MLK"},
-    {"year": 1964, "spain": "Desarrollo industrial español acelerado", "western_europe": "Gran Bretaña elige gobierno laborista", "americas": "Guerra de Vietnam: EEUU intensifica participación"},
-    {"year": 1965, "spain": "España continúa crecimiento económico fuerte", "western_europe": "Primera transmisión de TV en color", "americas": "Rebelión en República Dominicana"},
-    {"year": 1966, "spain": "Inestabilidad política bajo Franco", "western_europe": "Cultura pop británica en auge (Beatles)", "americas": "Guerrilla del Che Guevara en Bolivia"},
-    {"year": 1967, "spain": "Liberalización cultural española leve", "western_europe": "Guerra de los Seis Días: Israel-Palestina", "americas": "Captura y muerte del Che Guevara"},
-    {"year": 1968, "spain": "Movimiento estudiantil español crece", "western_europe": "Primavera de Praga: URSS invade", "americas": "Asesinato de MLK y RFK"},
-    {"year": 1969, "spain": "España declara estado de excepción", "western_europe": "Hombre llega a la Luna (Apolo 11)", "americas": "Festivales de Woodstock y Altamont"},
-    {"year": 1970, "spain": "Represión continúa bajo régimen franquista", "western_europe": "Muerte de De Gaulle en Francia", "americas": "Allende gana en Chile: vía democrática al socialismo"},
-    {"year": 1971, "spain": "Procesos de Burgos: represión antiterrorista", "western_europe": "Tratado 1971: Dinamarca y Reino Unido firman", "americas": "Pentagon Papers publicados en EEUU"},
-    {"year": 1972, "spain": "Represión de ETA continúa", "western_europe": "Masacre olímpica de Munich", "americas": "Reelección de Nixon con mayoría histórica"},
-    {"year": 1973, "spain": "Asesinato del Almirante Carrero Blanco", "western_europe": "Golpe en Chile: Pinochet toma poder", "americas": "Crisis del petróleo de OPEP"},
-    {"year": 1974, "spain": "Muerte de Franco próxima: crisis política", "western_europe": "Revolución de los Claveles en Portugal", "americas": "Renuncia de Nixon por Watergate"},
-    {"year": 1975, "spain": "Muerte de Franco: Juan Carlos I Rey de España", "western_europe": "Helsinki: Acta Final CSCE", "americas": "Caída de Saigón: fin Guerra Vietnam"},
-    {"year": 1976, "spain": "Reforma política española: transición", "western_europe": "Victoria electoral de Callaghan en Reino Unido", "americas": "Golpe militar en Argentina: Junta toma poder"},
-    {"year": 1977, "spain": "Primeras elecciones democráticas españolas", "western_europe": "Toma posesión gobierno laborista británico", "americas": "Carter gana presidencia estadounidense"},
-    {"year": 1978, "spain": "Constitución española aprobada por referéndum", "western_europe": "Papa Juan Pablo II consagrado", "americas": "Revolución sandinista en Nicaragua"},
-    {"year": 1979, "spain": "Elecciones legislativas: transición democrática", "western_europe": "Margaret Thatcher primera ministra británica", "americas": "Revolución Iraní: Jomeini al poder"},
-    {"year": 1980, "spain": "Gobierno de UCD: reformas democráticas", "western_europe": "Gdańsk: Solidaridad en Polonia comienza", "americas": "Reagan gana presidencia estadounidense"},
-    {"year": 1981, "spain": "Golpe de estado fallido del 23-F en España", "western_europe": "Lech Wałęsa líder de Solidaridad", "americas": "Intento de asesinato a Reagan"},
-    {"year": 1982, "spain": "Socialismo gana elecciones (PSOE): González", "western_europe": "Falkland Islands War: Argentina-Reino Unido", "americas": "Guerra de las Malvinas: Argentina-GB"},
-    {"year": 1983, "spain": "Felipe González primer presidente socialista", "western_europe": "Cruise missiles instalados en Europa", "americas": "Invasión de Granada por EEUU"},
-    {"year": 1984, "spain": "España desarrolla economía moderna", "western_europe": "Elecciones europeas: resultado conservador", "americas": "Reagan reelegido con mayoría histórica"},
-    {"year": 1985, "spain": "Acta Única Europea: España se integra", "western_europe": "Acta Única Europea firmada", "americas": "Terremoto en Ciudad de México"},
-    {"year": 1986, "spain": "Referéndum sobre OTAN: España sí a permanencia", "western_europe": "Desastre nuclear de Chernóbil", "americas": "Rusia desastre nuclear en Chernóbil"},
-    {"year": 1987, "spain": "España integrada en Comunidad Europea", "western_europe": "Glasnost y Perestroika de Gorbachov", "americas": "Acuerdos de paz centroamericanos de Esquipulas"},
-    {"year": 1988, "spain": "Huelga general contra políticas de gobierno", "western_europe": "Gorbachov abre Unión Soviética", "americas": "Bush gana presidencia estadounidense"},
-    {"year": 1989, "spain": "Crecimiento económico en España", "western_europe": "Caída del Muro de Berlín (9 de noviembre)", "americas": "Invasión de Panamá por EEUU"},
-    {"year": 1990, "spain": "Preparativos para Exposición Universal en Sevilla", "western_europe": "Reunificación de Alemania (3 de octubre)", "americas": "Violeta Chamorro gana en Nicaragua"},
-    {"year": 1991, "spain": "Exposición Universal de Sevilla: España brilla", "western_europe": "Disolución de la Unión Soviética", "americas": "Guerra del Golfo: EEUU derrota Irak"},
-    {"year": 1992, "spain": "Juegos Olímpicos Barcelona: éxito español", "western_europe": "Tratado de Maastricht: crea Unión Europea", "americas": "Levantamiento zapatista en Chiapas"},
-    {"year": 1993, "spain": "Elecciones generales: González mantiene poder", "western_europe": "Entra en vigor Tratado de Maastricht", "americas": "Clinton toma presidencia estadounidense"},
-    {"year": 1994, "spain": "Escándalo de corrupción política PSOE", "western_europe": "Tratado de París: cooperación franco-germana", "americas": "Terremoto en Northridge, California"},
-    {"year": 1995, "spain": "Francia prueba armas nucleares en Pacífico", "western_europe": "Atentado de Oklahoma City en EEUU", "americas": "Acuerdos de Dayton: paz en Bosnia"},
-    {"year": 1996, "spain": "Gobierno conservador bajo Aznar (PP)", "western_europe": "Elecciones británicas: Tony Blair (New Labour)", "americas": "Reelección de Clinton"},
-    {"year": 1997, "spain": "España reduce déficit: integración en Euro", "western_europe": "Tratado de Ámsterdam en Unión Europea", "americas": "Destrucción de cocaína en Cali"},
-    {"year": 1998, "spain": "Pacto anti-terrorista en Cataluña", "western_europe": "Bomba en Madrid: atentado irlandés", "americas": "Escándalo Clinton-Lewinsky"},
-    {"year": 1999, "spain": "España adopta Euro como moneda", "western_europe": "Kosovo: bombardeos OTAN a Serbia", "americas": "Colombia: conflicto de drogas intenso"},
-    {"year": 2000, "spain": "Aznar reelegido con mayoría absoluta (PP)", "western_europe": "Problemas de Y2K no se materializan", "americas": "Reñida elección Bush vs Gore en EEUU"},
-    {"year": 2001, "spain": "España entra zona Euro completamente", "western_europe": "Atentados 11-S en Nueva York", "americas": "11 de septiembre: Torres Gemelas destruidas"},
-    {"year": 2002, "spain": "Peseta desaparece: Euro circula", "western_europe": "Euro se convierte en dinero físico", "americas": "Guerra en Afganistán: EEUU lidera"},
-    {"year": 2003, "spain": "Guerra de Irak: España participa", "western_europe": "Invasión de Irak por OTAN", "americas": "Invasión de Irak: EEUU lidera coalición"},
-    {"year": 2004, "spain": "Atentados de Madrid 11-M: 191 muertos", "western_europe": "Ampliación EU a 25 países", "americas": "Terremoto y Tsunami en Océano Índico"},
-    {"year": 2005, "spain": "Gobierno de Zapatero (PSOE) tras elecciones", "western_europe": "Tratado constitucional europeo aprobado", "americas": "Huracán Katrina devasta Nueva Orleans"},
-    {"year": 2006, "spain": "Zapatero retira tropas de Irak", "western_europe": "Holanda: gobierno de coalición", "americas": "Evo Morales presidente de Bolivia"},
-    {"year": 2007, "spain": "Crisis hipotecaria en EEUU afecta globalmente", "western_europe": "Comenzó la Gran Recesión financiera", "americas": "Crisis subprime en EEUU"},
-    {"year": 2008, "spain": "Crisis financiera golpea España duramente", "western_europe": "Colapso financiero: Lehman Brothers", "americas": "Obama elegido presidente de EEUU"},
-    {"year": 2009, "spain": "Desempleo español sube por crisis", "western_europe": "Elecciones europeas: resultados variados", "americas": "Golpe de estado en Honduras"},
-    {"year": 2010, "spain": "España solicita rescate financiero de UE", "western_europe": "Rescate de Grecia por FMI", "americas": "Terremoto en Haití: 230,000 muertos"},
-    {"year": 2011, "spain": "Indignados: movimiento 15-M en España", "western_europe": "Primavera Árabe: revoluciones múltiples", "americas": "Muerte de Osama bin Laden en Pakistán"},
-    {"year": 2012, "spain": "Elecciones: Rajoy (PP) presidente", "western_europe": "Crisis de deuda europea persiste", "americas": "Reelección de Obama"},
-    {"year": 2013, "spain": "Rajoy gobierna durante recuperación lenta", "western_europe": "Papado de Francisco comienza", "americas": "Snowden revela programas NSA"},
-    {"year": 2014, "spain": "Cambio en monarquía: abdicación Juan Carlos", "western_europe": "Crimea anexionada por Rusia", "americas": "Terremoto en Chile: 8.2 magnitud"},
-    {"year": 2015, "spain": "Elecciones 20-D: fragmentación política", "western_europe": "Refugiados sirios: crisis migratoria", "americas": "Venezuela: crisis económica profunda"},
-    {"year": 2016, "spain": "Gobierno de Rajoy tras negociaciones", "western_europe": "Brexit: Reino Unido vota salir UE", "americas": "Trump elegido presidente de EEUU"},
-    {"year": 2017, "spain": "Crisis catalana: referéndum de independencia", "western_europe": "Elecciones alemanas: Merkel reelegida", "americas": "Huracanes Harvey, Irma y María"},
-    {"year": 2018, "spain": "Sánchez (PSOE) nuevo presidente de España", "western_europe": "Gilets Jaunes protestan en Francia", "americas": "Maduro reelegido controversialmente en Venezuela"},
-    {"year": 2019, "spain": "Elecciones españolas: fragmentación persiste", "western_europe": "Elecciones europeas: ascenso populista", "americas": "Protestas en Chile y Haití"},
-    {"year": 2020, "spain": "Pandemia COVID-19 golpea España", "western_europe": "Pandemia COVID-19 en Europa", "americas": "Pandemia COVID-19 en el mundo"},
-    {"year": 2021, "spain": "Recuperación económica post-COVID comienza", "western_europe": "Elecciones alemanas: Scholz canciller", "americas": "Retirada de EEUU de Afganistán"},
-    {"year": 2022, "spain": "España sufre inflación por guerra Ucrania", "western_europe": "Invasión rusa de Ucrania (24 de febrero)", "americas": "Rusia invade Ucrania: crisis global"},
-    {"year": 2023, "spain": "Elecciones españolas: PP gana, Sánchez sigue", "western_europe": "Guerra de Ucrania continúa", "americas": "Terremoto en Turquía y Siria"},
-    {"year": 2024, "spain": "España experimenta crecimiento económico", "western_europe": "Elecciones europeas: resultados variados", "americas": "Trump regresa a carrera presidencial"},
-    {"year": 2025, "spain": "España en transición política continua", "western_europe": "Europa enfrenta retos geopolíticos", "americas": "Mundo en incertidumbre geopolítica"}
+    {
+      "year": 1900,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Restauración borbónica: Reinado de Alfonso XIII",
+          "description": "Alfonso XIII asume el trono de España en medio de crisis política tras la pérdida de colonias. Comienza un período de inestabilidad política que durará tres décadas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Alfonso_XIII_of_Spain.jpg/440px-Alfonso_XIII_of_Spain.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Alfonso_XIII_de_Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "París: Exposición Universal 1900",
+          "description": "La Exposición Universal de París de 1900 es uno de los mayores eventos de la época, celebrando los logros tecnológicos y artísticos del siglo XIX. Atrae a millones de visitantes.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Paris_expo_1900.jpg/640px-Paris_expo_1900.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Exposici%C3%B3n_Universal_de_1900"
+        },
+        {
+          "region": "Americas",
+          "title": "Estados Unidos potencia mundial tras Guerra Hispanoamericana",
+          "description": "Tras su victoria sobre España en la Guerra Hispanoamericana (1898), Estados Unidos adquiere territorios en el Caribe y el Pacífico, consolidándose como potencia mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/BattleofSantiago.jpg/640px-BattleofSantiago.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Guerra_hispanoamericana"
+        }
+      ]
+    },
+    {
+      "year": 1901,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Consolidación del PSOE como partido político",
+          "description": "El Partido Socialista Obrero Español (PSOE) se consolida como una fuerza política importante en España, ganando presencia parlamentaria.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/PSOE_Logo.svg/440px-PSOE_Logo.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Partido_Socialista_Obrero_Espa%C3%B1ol"
+        },
+        {
+          "region": "Europe",
+          "title": "Muerte de la Reina Victoria de Reino Unido",
+          "description": "Tras 63 años de reinado, muere la Reina Victoria del Reino Unido. Le sucede su hijo Eduardo VII, marcando el fin de una era.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Queen_Victoria_-_G.E._Shippen.jpg/440px-Queen_Victoria_-_G.E._Shippen.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Victoria_del_Reino_Unido"
+        },
+        {
+          "region": "Asia",
+          "title": "Tsar de Rusia afianza su poder autoritario",
+          "description": "Nicolás II consolida su poder en el Imperio Ruso, ignorando demandas de reformas democráticas de liberales y revolucionarios.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nikolay2.jpg/440px-Nikolay2.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Nicol%C3%A1s_II_de_Rusia"
+        }
+      ]
+    },
+    {
+      "year": 1902,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Crisis política española y regeneracionismo",
+          "description": "Generación del 98: intelectuales como Unamuno, Azorín y Machado reflexionan sobre la decadencia de España tras perder sus colonias.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Miguel_de_Unamuno.jpg/440px-Miguel_de_Unamuno.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Generaci%C3%B3n_del_98"
+        },
+        {
+          "region": "Africa",
+          "title": "Fin de la Guerra de los Bóer en Sudáfrica",
+          "description": "Gran Bretaña derrota finalmente a los bóers en Sudáfrica tras una guerra prolongada y sangrienta. Sudáfrica se convierte en colonia británica.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Second_Boer_War.jpg/640px-Second_Boer_War.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Segunda_Guerra_B%C3%B3er"
+        },
+        {
+          "region": "Americas",
+          "title": "Construcción del Canal de Panamá comienza",
+          "description": "Comienza la construcción del Canal de Panamá bajo dirección estadounidense. Este proyecto revolucionará el comercio mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Panama_canal_under_construction.jpg/640px-Panama_canal_under_construction.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Canal_de_Panam%C3%A1"
+        }
+      ]
+    },
+    {
+      "year": 1903,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Reforma militar española",
+          "description": "El ejército español experimenta reformas estructurales para modernizarse tras las críticas por su desempeño en las colonias.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Spanish_military_1900s.jpg/640px-Spanish_military_1900s.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Ejercito_espa%C3%B1ol"
+        },
+        {
+          "region": "Europe",
+          "title": "Alianza franco-inglesa (Entente Cordiale)",
+          "description": "Francia e Inglaterra suscriben la Entente Cordiale, resolviendo disputas coloniales e iniciando una aproximación que durará décadas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Entente_Cordiale.jpg/640px-Entente_Cordiale.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Entente_Cordiale"
+        },
+        {
+          "region": "Americas",
+          "title": "Primer vuelo de los Hermanos Wright",
+          "description": "Orville y Wilbur Wright logran el primer vuelo en aeroplano motorizado en Kitty Hawk, revolucionando la aviación.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/First_Flight.jpg/640px-First_Flight.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Vuelo_de_los_Hermanos_Wright"
+        }
+      ]
+    },
+    {
+      "year": 1905,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Crisis ministerial en España",
+          "description": "Cambios en el gobierno español con el Ministerio de Montero Ríos, marcando más inestabilidad política.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Spanish_Parliament.jpg/640px-Spanish_Parliament.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Crisis_ministerial"
+        },
+        {
+          "region": "Europe",
+          "title": "Domingo Sangriento en Rusia",
+          "description": "En San Petersburgo, tropas zaristas abren fuego contra manifestantes, matando a centenares. Este evento desencadena la Revolución de 1905.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Bloody_Sunday_1905.jpg/640px-Bloody_Sunday_1905.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Domingo_Sangriento"
+        },
+        {
+          "region": "Asia",
+          "title": "Japón derrota a Rusia en Guerra Ruso-Japonesa",
+          "description": "Japón logra una sorprendente victoria sobre Rusia, demostrando su poder militar en Asia y cambiando el equilibrio geopolítico.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Russian_ships_burning_1905.jpg/640px-Russian_ships_burning_1905.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Guerra_ruso-japonesa"
+        }
+      ]
+    },
+    {
+      "year": 1914,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España declara neutralidad en Primera Guerra Mundial",
+          "description": "El Rey Alfonso XIII declara la neutralidad de España en la I Guerra Mundial, aunque el país experimenta tensiones internas por las simpatías de diferentes facciones.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a_en_la_Primera_Guerra_Mundial"
+        },
+        {
+          "region": "Europe",
+          "title": "Comienza la Primera Guerra Mundial",
+          "description": "Tras el asesinato del Archiduque Francisco Fernando en Sarajevo, Austria-Hungría declara la guerra a Serbia, desencadenando la I Guerra Mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/WWI.jpg/640px-WWI.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Primera_Guerra_Mundial"
+        },
+        {
+          "region": "Americas",
+          "title": "Inauguración del Canal de Panamá",
+          "description": "El Canal de Panamá abre al tráfico, revolucionando el comercio mundial al permitir el paso entre el Atlántico y el Pacífico.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Panama_Canal_locks.jpg/640px-Panama_Canal_locks.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Canal_de_Panam%C3%A1"
+        }
+      ]
+    },
+    {
+      "year": 1917,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Crisis revolucionaria obrera en minería",
+          "description": "Huelgas y disturbios revolucionarios sacuden las minas españolas durante la I Guerra Mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Spanish_miners_1917.jpg/640px-Spanish_miners_1917.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Movimiento_obrero_espa%C3%B1ol"
+        },
+        {
+          "region": "Europe",
+          "title": "Revolución Rusa de Octubre",
+          "description": "Los bolcheviques bajo Lenin toman el poder en Rusia, estableciendo el primer estado comunista del mundo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/October_Revolution.jpg/640px-October_Revolution.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Octubre"
+        },
+        {
+          "region": "Americas",
+          "title": "Estados Unidos entra en la Primera Guerra Mundial",
+          "description": "EEUU declara la guerra a Alemania y se suma a los Aliados, cambiando el curso de la guerra.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/US_forces_WWI.jpg/640px-US_forces_WWI.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Participaci%C3%B3n_de_Estados_Unidos_en_la_Primera_Guerra_Mundial"
+        }
+      ]
+    },
+    {
+      "year": 1918,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Gripe española: 250,000 muertes en España",
+          "description": "La pandemia de gripe española (H1N1) mata a cientos de miles en España, una de las mayores catástrofes sanitarias.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Spanish_flu.jpg/640px-Spanish_flu.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_gripe_de_1918"
+        },
+        {
+          "region": "Europe",
+          "title": "Fin de la Primera Guerra Mundial",
+          "description": "Se firma el Armisticio que pone fin a la I Guerra Mundial. Millones han muerto en la contienda.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/WWI_armistice.jpg/640px-WWI_armistice.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Armisticio_de_Compi%C3%A8gne"
+        },
+        {
+          "region": "Asia",
+          "title": "Pandemia de gripe en Asia",
+          "description": "La gripe española causa millones de muertes en toda Asia, sobrecargando los sistemas de salud.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Spanish_flu_Asia.jpg/640px-Spanish_flu_Asia.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_gripe_de_1918"
+        }
+      ]
+    },
+    {
+      "year": 1929,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Crisis política en España, caída de Primo de Rivera",
+          "description": "La dictadura del General Primo de Rivera comienza a debilitarse tras la crisis económica.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Primo_de_Rivera.jpg/640px-Primo_de_Rivera.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Miguel_Primo_de_Rivera"
+        },
+        {
+          "region": "Europe",
+          "title": "Crash de Wall Street: Gran Depresión",
+          "description": "El colapso del mercado de valores en Wall Street desencadena la Gran Depresión, la peor crisis económica del siglo XX.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Wall_Street_Crash_1929.jpg/640px-Wall_Street_Crash_1929.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Crash_de_1929"
+        },
+        {
+          "region": "Americas",
+          "title": "Inicio de la Gran Depresión en Estados Unidos",
+          "description": "La economía estadounidense colapsa, causando desempleo masivo y miseria económica.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Dorothea_Lange_-_Migrant_Mother.jpg/640px-Dorothea_Lange_-_Migrant_Mother.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Gran_Depresi%C3%B3n"
+        }
+      ]
+    },
+    {
+      "year": 1931,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Segunda República Española proclamada",
+          "description": "Tras la caída de Alfonso XIII, se proclama la Segunda República Española, iniciando una nueva era política.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Flag_of_the_Spanish_Republic.svg/640px-Flag_of_the_Spanish_Republic.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Segunda_Rep%C3%BAblica_Espa%C3%B1ola"
+        },
+        {
+          "region": "Europe",
+          "title": "La Gran Depresión profundiza la crisis económica",
+          "description": "La crisis económica golpea duramente a Europa, causando desempleo masivo y radicalismo político.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Unemployment_1930s.jpg/640px-Unemployment_1930s.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Gran_Depresi%C3%B3n"
+        },
+        {
+          "region": "Asia",
+          "title": "Japón invade Manchuria",
+          "description": "Japón comienza su expansión imperialista invadiendo Manchuria, desafiando la Liga de Naciones.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Japan_invades_Manchuria.jpg/640px-Japan_invades_Manchuria.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_japon%C3%A9sa_de_Manchuria"
+        }
+      ]
+    },
+    {
+      "year": 1936,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Guerra Civil Española: Sublevación militar",
+          "description": "Comienza la Guerra Civil Española tras la sublevación de Francisco Franco contra el gobierno republicano. La guerra durará tres años.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/SpanishCivilWar.jpg/640px-SpanishCivilWar.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Guerra_civil_espa%C3%B1ola"
+        },
+        {
+          "region": "Europe",
+          "title": "Hitler remilitariza Alemania",
+          "description": "Adolfo Hitler remilitariza el Ruhr, violando el Tratado de Versalles y comenzando la expansión nazi.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/German_remilitarization_1936.jpg/640px-German_remilitarization_1936.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Remilitarizaci%C3%B3n_del_Ruhr"
+        },
+        {
+          "region": "Americas",
+          "title": "Reestructuración del poder en América Latina",
+          "description": "Diversos países latinoamericanos experimentan cambios políticos y golpes de estado durante el período.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Latin_America_1936.jpg/640px-Latin_America_1936.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Am%C3%A9rica_Latina"
+        }
+      ]
+    },
+    {
+      "year": 1939,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Franco vence en la Guerra Civil (1 de abril)",
+          "description": "Tras casi tres años de guerra, Franco logra la victoria sobre las fuerzas republicanas. Comienza una dictadura de 36 años.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Francisco_Franco.jpg/640px-Francisco_Franco.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Francisco_Franco"
+        },
+        {
+          "region": "Europe",
+          "title": "Alemania invade Polonia: comienza la IIGM",
+          "description": "Hitler invade Polonia el 1 de septiembre, desencadenando la Segunda Guerra Mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/German_invasion_Poland.jpg/640px-German_invasion_Poland.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_de_Polonia"
+        },
+        {
+          "region": "Americas",
+          "title": "EEUU mantiene neutralidad inicial en IIGM",
+          "description": "Mientras Europa entra en guerra, Estados Unidos intenta mantenerse neutral, aunque simpatiza con los Aliados.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/US_neutrality_1939.jpg/640px-US_neutrality_1939.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Neutralidad_de_Estados_Unidos"
+        }
+      ]
+    },
+    {
+      "year": 1969,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España bajo la dictadura franquista entra en modernización",
+          "description": "A finales de los 60s, España comienza un proceso lento de aperturismo bajo Franco.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Spain_1960s.jpg/640px-Spain_1960s.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a_durante_el_franquismo"
+        },
+        {
+          "region": "Europe",
+          "title": "Hombre llega a la Luna: Apolo 11",
+          "description": "Neil Armstrong y Buzz Aldrin pisam la Luna, uno de los mayores logros de la humanidad.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Apollo_11.jpg/640px-Apollo_11.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Apolo_11"
+        },
+        {
+          "region": "Americas",
+          "title": "Festival de Woodstock en Estados Unidos",
+          "description": "Más de 500,000 personas se reúnen en el Festival de Woodstock, símbolo de la contracultura de los 60s.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Woodstock_Festival.jpg/640px-Woodstock_Festival.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Festival_de_Woodstock"
+        }
+      ]
+    },
+    {
+      "year": 1975,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Muerte de Franco: Juan Carlos I es Rey",
+          "description": "Muere el General Franco el 20 de noviembre. Juan Carlos I es proclamado Rey, iniciando la transición democrática.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Juan_Carlos_I.jpg/640px-Juan_Carlos_I.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Juan_Carlos_I_de_Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acta Final de Helsinki",
+          "description": "Se firma el Acta Final de Helsinki, estableciendo principios para la cooperación y derechos humanos durante la Guerra Fría.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Helsinki_Accords.jpg/640px-Helsinki_Accords.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Acta_de_Helsinki"
+        },
+        {
+          "region": "Asia",
+          "title": "Caída de Saigón: fin de la Guerra de Vietnam",
+          "description": "Las fuerzas comunistas toman Saigón, terminando la Guerra de Vietnam con victoria comunista.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Fall_of_Saigon.jpg/640px-Fall_of_Saigon.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Caida_de_Saig%C3%B3n"
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España integrada en la Comunidad Económica Europea",
+          "description": "España participa activamente en la CEE, acercándose a Europa Occidental.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Uni%C3%B3n_Europea"
+        },
+        {
+          "region": "Europe",
+          "title": "Caída del Muro de Berlín",
+          "description": "El 9 de noviembre cae el Muro de Berlín, simbolizando el fin de la Guerra Fría y la reunificación de Alemania.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Berlin_Wall_fall.jpg/640px-Berlin_Wall_fall.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Caida_del_Muro_de_Berl%C3%ADn"
+        },
+        {
+          "region": "Americas",
+          "title": "Invasión de Panamá por Estados Unidos",
+          "description": "EEUU invade Panamá para deponer al General Noriega y recuperar el control del Canal de Panamá.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/US_invasion_Panama.jpg/640px-US_invasion_Panama.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_de_Panam%C3%A1"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España entra en la zona Euro completamente",
+          "description": "La moneda Euro entra en circulación en España, sustituyendo la peseta.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Euro_coins.jpg/640px-Euro_coins.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Euro"
+        },
+        {
+          "region": "Europe",
+          "title": "Atentados 11-S en Nueva York",
+          "description": "El 11 de septiembre, al-Qaeda lleva a cabo ataques terroristas en Nueva York, Washington y Pensilvania, matando a casi 3,000 personas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/9-11_terrorist_attacks.jpg/640px-9-11_terrorist_attacks.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Atentados_del_11_de_septiembre"
+        },
+        {
+          "region": "Americas",
+          "title": "Inicio de la Guerra Global contra el Terrorismo",
+          "description": "EEUU declara la 'Guerra Global contra el Terrorismo' en respuesta a los ataques del 11-S.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/War_on_Terror.jpg/640px-War_on_Terror.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Guerra_contra_el_terrorismo"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Crisis financiera golpea España duramente",
+          "description": "La crisis subprime de 2008 causa una grave recesión económica en España con alto desempleo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Financial_crisis_2008.jpg/640px-Financial_crisis_2008.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Crisis_econ%C3%B3mica_de_2008"
+        },
+        {
+          "region": "Europe",
+          "title": "Colapso financiero global: Lehman Brothers",
+          "description": "El banco de inversión Lehman Brothers colapsa, desencadenando la peor crisis financiera desde la Gran Depresión.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Lehman_Brothers_collapse.jpg/640px-Lehman_Brothers_collapse.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Crisis_financiera_de_2008"
+        },
+        {
+          "region": "Americas",
+          "title": "Barack Obama elegido presidente de EEUU",
+          "description": "Barack Obama se convierte en el primer presidente afroamericano de Estados Unidos, ganando las elecciones de 2008.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Barack_Obama.jpg/640px-Barack_Obama.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Barack_Obama"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Pandemia COVID-19 golpea a España",
+          "description": "España se convierte en uno de los países más afectados de Europa por la pandemia de COVID-19.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/COVID-19_pandemic.jpg/640px-COVID-19_pandemic.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19"
+        },
+        {
+          "region": "Europe",
+          "title": "Pandemia de COVID-19 en Europa",
+          "description": "Europa entera es golpeada por la pandemia, causando millones de muertes y una crisis económica.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/COVID-19_Europe.jpg/640px-COVID-19_Europe.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19"
+        },
+        {
+          "region": "World",
+          "title": "Pandemia global de COVID-19",
+          "description": "La enfermedad COVID-19 se propaga por todo el mundo, causando millones de muertes y transformando la sociedad global.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/COVID-19_world.jpg/640px-COVID-19_world.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19"
+        }
+      ]
+    }
   ]
 }
