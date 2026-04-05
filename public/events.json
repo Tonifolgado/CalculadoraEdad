@@ -1,0 +1,3280 @@
+{
+  "events": [
+    {
+      "year": 1900,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Reinado de Alfonso XIII",
+          "description": "Alfonso XIII se convierte en rey de España tras la muerte de su padre Alfonso XII. España continúa consolidando su monarquía.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Spainmap.svg/640px-Spainmap.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Alfonso_XIII"
+        },
+        {
+          "region": "Europe",
+          "title": "Transición del siglo XIX al XX",
+          "description": "Comienza un nuevo siglo en Europa. El continente experimenta cambios políticos y tecnológicos significativos.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Siglo_XX"
+        },
+        {
+          "region": "World",
+          "title": "Exposición Universal de París",
+          "description": "Se celebra la Exposición Universal de París 1900, considerada una de las más grandes del siglo XIX-XX.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Paris-Expo1900.jpg/640px-Paris-Expo1900.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Exposici%C3%B3n_Universal_de_Par%C3%ADs_(1900)"
+        }
+      ]
+    },
+    {
+      "year": 1901,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Reformas en España",
+          "description": "Se inician reformas administrativas bajo el reinado de Alfonso XIII para modernizar la nación.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Spainmap.svg/640px-Spainmap.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Reinado_de_Alfonso_XIII"
+        },
+        {
+          "region": "Europe",
+          "title": "Primer vuelo de Zeppelin",
+          "description": "El conde Ferdinand von Zeppelin realiza el primer vuelo exitoso de su dirigible en Alemania.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Zeppelin_LZ1.jpg/640px-Zeppelin_LZ1.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/LZ_1"
+        },
+        {
+          "region": "World",
+          "title": "Muerte de la reina Victoria",
+          "description": "Fallece la reina Victoria I de Reino Unido tras 63 años de reinado, marcando el fin de la era victoriana.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Victoria_Adelaide_of_Saxe-Coburg-Gotha.jpg/640px-Victoria_Adelaide_of_Saxe-Coburg-Gotha.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Victoria_I_del_Reino_Unido"
+        }
+      ]
+    },
+    {
+      "year": 1902,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Tratado de París",
+          "description": "España cede Puerto Rico, Guam y las Filipinas a EE.UU. tras la Guerra hispanonorteamericana, marcando simbólicamente el fin del imperio colonial español.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Entente Cordiale",
+          "description": "Acuerdo histórico entre Francia y Reino Unido que resolvió sus diferencias coloniales en Egipto, Marruecos y Siam, sentando bases de futuras alianzas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Erupción del Monte Pelado",
+          "description": "La erupción del volcán Mont Pelée en Martinica destruye completamente la ciudad de Saint-Pierre matando a 29,000 personas en minutos.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1903,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Motín de Ciegos en Madrid",
+          "description": "Disturbios sociales relacionados con el movimiento obrero en España durante levantamientos contra condiciones laborales injustas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Vuelo de los Hermanos Wright",
+          "description": "Orville y Wilbur Wright realizan el primer vuelo controlado de un aeroplano más pesado que el aire en Kitty Hawk, revolucionando el transporte.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Fundación de Ford Motor Company",
+          "description": "Henry Ford funda la Ford Motor Company que revolucionaría la industria automotriz y la manufactura moderna.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1904,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Huelga General",
+          "description": "Importantes movilizaciones obreras y huelga general sacuden el mercado laboral español en demanda de mejores condiciones laborales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acuerdo francés-británico",
+          "description": "Entente Cordiale resulta en acuerdos sobre territorios coloniales en África del Norte, Sudán, Newfoundland y fortalece lazos europeos.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Guerra Ruso-Japonesa",
+          "description": "Conflicto entre Rusia y Japón en Manchuria y el mar de Japón que marcó el debut de Japón como potencia militar mundial moderna.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1905,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Crisis política en España",
+          "description": "Agitación política y social durante el reinado de Alfonso XIII con manifestaciones de descontento general en la sociedad española.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Revolución Rusa de 1905",
+          "description": "Levantamiento revolucionario obliga al Zar Nicolás II a establecer el Parlamento (Duma) y otorgar libertades civiles en Rusia.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Teoría de la Relatividad Especial",
+          "description": "Albert Einstein publica su Teoría de la Relatividad Especial transformando fundamentalmente la física moderna y nuestra comprensión del universo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1906,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Terremoto de San Francisco",
+          "description": "Devastador terremoto de magnitud 7.9 causa miles de muertes en California transformando el conocimiento sobre sismología mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Conferencia de Algeciras",
+          "description": "Conferencia internacional sobre la cuestión de Marruecos busca equilibrio de poderes en Norte de África entre Francia, Alemania y otras potencias.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Terremoto en San Francisco",
+          "description": "Uno de los terremotos más destructivos de la historia de Estados Unidos destruye gran parte de San Francisco e incendia la ciudad.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1907,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Conflictos laborales acelerados",
+          "description": "Aumento notable de conflictividad obrera y reivindicaciones sociales en España con múltiples huelgas organizadas por sindicatos.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Segunda Conferencia de La Haya",
+          "description": "Segunda Conferencia de Paz Internacional en La Haya intenta regular la guerra y establecer normas internacionales de conflicto.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Crisis financiera de 1907",
+          "description": "Pánico bancario global con colapso de instituciones financieras y mercados, precursor de la Gran Depresión posterior.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1908,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Semana Trágica de Barcelona",
+          "description": "Revuelta urbana en Barcelona contra la guerra de Marruecos con represión sangrienta del gobierno causando cientos de muertes.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Anschluss de Bosnia-Herzegovina",
+          "description": "Austria-Hungría anexiona Bosnia-Herzegovina, causando severas tensiones en los Balcanes y con potencias rivales europeas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Cambios dinásticos en China",
+          "description": "Cambios en el liderazgo de la dinastía Qing en China con la muerte del Emperador Guangxu y sus consecuencias políticas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1909,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Huelga General Revolucionaria",
+          "description": "Conflicto laboral importante en España con convocatoria de huelga general revolucionaria por sindicatos anarquistas y socialistas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Crisis de los Balcanes",
+          "description": "Tensiones en los Balcanes tras la anexión de Bosnia por Austria-Hungría generando descontento entre pueblos eslavos y Rusia.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Expedición al Polo Norte",
+          "description": "Robert E. Peary y Matthew Henson alcanzan el Polo Norte en expedición de exploración polar histórica sin precedentes.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1910,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Elecciones generales españolas",
+          "description": "Convocatoria electoral importante en el panorama político español durante reinado de Alfonso XIII con participación significativa.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Revolución Portuguesa del 5 de Octubre",
+          "description": "Revolución republicana derrocó la monarquía portuguesa de Miguel I instaurando la República Portuguesa con cambios políticos radicales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Regreso del Cometa Halley",
+          "description": "El cometa Halley es visible desde la Tierra en su regreso periódico, generando especulación científica y fascinar mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1911,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Conflictos en el Protectorado de Marruecos",
+          "description": "Tensiones españolas en Marruecos durante fase de colonización del territorio causando enfrentamientos militares.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Segunda Crisis de Marruecos",
+          "description": "Confrontación internacional aguda por el control de Marruecos entre Francia y Alemania generando fricciones europeas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Amundsen llega al Polo Sur",
+          "description": "Roald Amundsen llega primero al Polo Sur delante de Robert Falcon Scott en expedición histórica de exploración polar.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1912,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Protectorado español de Marruecos",
+          "description": "Tratado franco-español formaliza el protectorado español sobre Marruecos dividiendo el territorio con Francia en negociación estratégica.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Hundimiento del Titanic",
+          "description": "El RMS Titanic se hunde en el Atlántico Norte tras colisionar con iceberg causando 1,500 muertes en tragedia marítima histórica.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Tragedia del Titanic",
+          "description": "Uno de los mayores desastres marítimos de la historia evidencia fragilidad humana ante fuerzas naturales y fallos de seguridad.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1913,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Agitación política y social",
+          "description": "Continuación de conflictividad política y social en España con protestas sindicales y manifestaciones de descontento general.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Guerras Balcánicas",
+          "description": "Conflictos en los Balcanes entre coaliciones de Estados previos a la Primera Guerra Mundial redibujando mapa regional.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Tratados de los Balcanes",
+          "description": "Tratados internacionales reorganizan el territorio en la región balcánica tras conflictos regionalizados de importancia geopolítica.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1914,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Neutralidad española proclamada",
+          "description": "España se mantiene neutral durante la Primera Guerra Mundial bajo dirección de Alfonso XIII a pesar de presiones internacionales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Asesinato del Archiduque Francisco Fernando",
+          "description": "Gavrilo Princip asesina al Archiduque Francisco Fernando en Sarajevo desencadenando la Primera Guerra Mundial tras reacciones en cadena.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Primera Guerra Mundial comienza",
+          "description": "Estalla la Primera Guerra Mundial tras el asesinato de Francisco Fernando y movilizaciones militares en cascada de potencias europeas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1915,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Continuidad de la neutralidad española",
+          "description": "España mantiene cuidadosa posición neutral mientras Europa está envuelta en guerra mundial de gran escala e intensidad.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Ofensivas principales en la Gran Guerra",
+          "description": "Intensificación del conflicto en el frente occidental con batallas de atrito causando cientos de miles de bajas militares.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Hundimiento del Lusitania",
+          "description": "Crucero transatlántico Lusitania es torpedeado por U-boat alemán causando 1,200 muertes e incidente de importancia internacional.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1916,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1916 en España",
+          "description": "Eventos históricos importantes en España durante el año 1916.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1916)",
+          "description": "Desarrollo histórico en Europa durante el año 1916.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1916)",
+          "description": "Acontecimiento histórico mundial durante el año 1916.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1917,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Huelga general española",
+          "description": "España experimenta conflictividad laboral con importante huelga general revolucionaria.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Revolución de Octubre",
+          "description": "Revolución bolchevique en Rusia derroca al Zar Nicolás II instaurando régimen comunista soviético.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Revolución Rusa y fin de guerra",
+          "description": "Año crucial de Primera Guerra Mundial con entrada de USA y Revolución Rusa en Rusia.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1918,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1918 en España",
+          "description": "Eventos históricos importantes en España durante el año 1918.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1918)",
+          "description": "Desarrollo histórico en Europa durante el año 1918.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1918)",
+          "description": "Acontecimiento histórico mundial durante el año 1918.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1919,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1919 en España",
+          "description": "Eventos históricos importantes en España durante el año 1919.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1919)",
+          "description": "Desarrollo histórico en Europa durante el año 1919.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1919)",
+          "description": "Acontecimiento histórico mundial durante el año 1919.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1920,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Crimen de Picasso",
+          "description": "España experimenta cambios culturales con desarrollo del movimiento artístico moderno español.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Sociedad de Naciones",
+          "description": "Se funda la Sociedad de Naciones tras Primera Guerra Mundial para prevenir futuros conflictos globales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Fin de la Primera Guerra",
+          "description": "La Primera Guerra Mundial termina con Tratado de Versalles redibujando mapa europeo completamente.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1921,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1921 en España",
+          "description": "Eventos históricos importantes en España durante el año 1921.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1921)",
+          "description": "Desarrollo histórico en Europa durante el año 1921.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1921)",
+          "description": "Acontecimiento histórico mundial durante el año 1921.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1922,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1922 en España",
+          "description": "Eventos históricos importantes en España durante el año 1922.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1922)",
+          "description": "Desarrollo histórico en Europa durante el año 1922.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1922)",
+          "description": "Acontecimiento histórico mundial durante el año 1922.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1923,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1923 en España",
+          "description": "Eventos históricos importantes en España durante el año 1923.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1923)",
+          "description": "Desarrollo histórico en Europa durante el año 1923.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1923)",
+          "description": "Acontecimiento histórico mundial durante el año 1923.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1924,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1924 en España",
+          "description": "Eventos históricos importantes en España durante el año 1924.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1924)",
+          "description": "Desarrollo histórico en Europa durante el año 1924.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1924)",
+          "description": "Acontecimiento histórico mundial durante el año 1924.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1925,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1925 en España",
+          "description": "Eventos históricos importantes en España durante el año 1925.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1925)",
+          "description": "Desarrollo histórico en Europa durante el año 1925.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1925)",
+          "description": "Acontecimiento histórico mundial durante el año 1925.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1926,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1926 en España",
+          "description": "Eventos históricos importantes en España durante el año 1926.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1926)",
+          "description": "Desarrollo histórico en Europa durante el año 1926.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1926)",
+          "description": "Acontecimiento histórico mundial durante el año 1926.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1927,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1927 en España",
+          "description": "Eventos históricos importantes en España durante el año 1927.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1927)",
+          "description": "Desarrollo histórico en Europa durante el año 1927.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1927)",
+          "description": "Acontecimiento histórico mundial durante el año 1927.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1928,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1928 en España",
+          "description": "Eventos históricos importantes en España durante el año 1928.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1928)",
+          "description": "Desarrollo histórico en Europa durante el año 1928.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1928)",
+          "description": "Acontecimiento histórico mundial durante el año 1928.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1929,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Cambios en España",
+          "description": "España experimenta cambios políticos durante período entre guerras mundiales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Crash de Wall Street",
+          "description": "Gran caída del mercado de valores en Nueva York precipitando la Gran Depresión económica global.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Gran Depresión económica",
+          "description": "Comienza la Gran Depresión económica con colapso de mercados financieros mundiales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1930,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1930 en España",
+          "description": "Eventos históricos importantes en España durante el año 1930.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1930)",
+          "description": "Desarrollo histórico en Europa durante el año 1930.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1930)",
+          "description": "Acontecimiento histórico mundial durante el año 1930.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1931,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1931 en España",
+          "description": "Eventos históricos importantes en España durante el año 1931.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1931)",
+          "description": "Desarrollo histórico en Europa durante el año 1931.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1931)",
+          "description": "Acontecimiento histórico mundial durante el año 1931.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1932,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1932 en España",
+          "description": "Eventos históricos importantes en España durante el año 1932.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1932)",
+          "description": "Desarrollo histórico en Europa durante el año 1932.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1932)",
+          "description": "Acontecimiento histórico mundial durante el año 1932.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1933,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1933 en España",
+          "description": "Eventos históricos importantes en España durante el año 1933.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1933)",
+          "description": "Desarrollo histórico en Europa durante el año 1933.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1933)",
+          "description": "Acontecimiento histórico mundial durante el año 1933.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1934,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1934 en España",
+          "description": "Eventos históricos importantes en España durante el año 1934.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1934)",
+          "description": "Desarrollo histórico en Europa durante el año 1934.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1934)",
+          "description": "Acontecimiento histórico mundial durante el año 1934.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1935,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1935 en España",
+          "description": "Eventos históricos importantes en España durante el año 1935.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1935)",
+          "description": "Desarrollo histórico en Europa durante el año 1935.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1935)",
+          "description": "Acontecimiento histórico mundial durante el año 1935.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1936,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Guerra Civil Española",
+          "description": "Comienza la Guerra Civil Española entre fuerzas republicanas y nacionales bajo liderazgo de Franco.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Ascenso de Hitler",
+          "description": "Adolf Hitler consolida poder en Alemania durante período previo a Segunda Guerra Mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Política de apaciguamiento",
+          "description": "Potencias europeas siguen política de apaciguamiento ante expansionismo de regímenes fascistas.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1937,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1937 en España",
+          "description": "Eventos históricos importantes en España durante el año 1937.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1937)",
+          "description": "Desarrollo histórico en Europa durante el año 1937.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1937)",
+          "description": "Acontecimiento histórico mundial durante el año 1937.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1938,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1938 en España",
+          "description": "Eventos históricos importantes en España durante el año 1938.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1938)",
+          "description": "Desarrollo histórico en Europa durante el año 1938.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1938)",
+          "description": "Acontecimiento histórico mundial durante el año 1938.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1939,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Fin de la Guerra Civil",
+          "description": "La Guerra Civil Española termina con victoria de Franco instaurando dictadura en España.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Segunda Guerra Mundial",
+          "description": "Estalla Segunda Guerra Mundial tras invasión de Polonia por Alemania nazi bajo Hitler.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Segunda Guerra Mundial comienza",
+          "description": "Inicio de Segunda Guerra Mundial que transformará la geopolítica mundial por años.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1940,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1940 en España",
+          "description": "Eventos históricos importantes en España durante el año 1940.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1940)",
+          "description": "Desarrollo histórico en Europa durante el año 1940.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1940)",
+          "description": "Acontecimiento histórico mundial durante el año 1940.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1941,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1941 en España",
+          "description": "Eventos históricos importantes en España durante el año 1941.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1941)",
+          "description": "Desarrollo histórico en Europa durante el año 1941.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1941)",
+          "description": "Acontecimiento histórico mundial durante el año 1941.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1942,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1942 en España",
+          "description": "Eventos históricos importantes en España durante el año 1942.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1942)",
+          "description": "Desarrollo histórico en Europa durante el año 1942.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1942)",
+          "description": "Acontecimiento histórico mundial durante el año 1942.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1943,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1943 en España",
+          "description": "Eventos históricos importantes en España durante el año 1943.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1943)",
+          "description": "Desarrollo histórico en Europa durante el año 1943.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1943)",
+          "description": "Acontecimiento histórico mundial durante el año 1943.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1944,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1944 en España",
+          "description": "Eventos históricos importantes en España durante el año 1944.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1944)",
+          "description": "Desarrollo histórico en Europa durante el año 1944.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1944)",
+          "description": "Acontecimiento histórico mundial durante el año 1944.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1945,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España tras guerra mundial",
+          "description": "España permanece aislada internacionalmente tras Segunda Guerra Mundial bajo régimen franquista.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Fin de la Segunda Guerra",
+          "description": "Segunda Guerra Mundial termina en Europa con rendición de Alemania y división de continente.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Fin de Segunda Guerra Mundial",
+          "description": "Segunda Guerra Mundial termina con rendiciones de Alemania y Japón transformando mundo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1946,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1946 en España",
+          "description": "Eventos históricos importantes en España durante el año 1946.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1946)",
+          "description": "Desarrollo histórico en Europa durante el año 1946.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1946)",
+          "description": "Acontecimiento histórico mundial durante el año 1946.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1947,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1947 en España",
+          "description": "Eventos históricos importantes en España durante el año 1947.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1947)",
+          "description": "Desarrollo histórico en Europa durante el año 1947.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1947)",
+          "description": "Acontecimiento histórico mundial durante el año 1947.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1948,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1948 en España",
+          "description": "Eventos históricos importantes en España durante el año 1948.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1948)",
+          "description": "Desarrollo histórico en Europa durante el año 1948.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1948)",
+          "description": "Acontecimiento histórico mundial durante el año 1948.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1949,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1949 en España",
+          "description": "Eventos históricos importantes en España durante el año 1949.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1949)",
+          "description": "Desarrollo histórico en Europa durante el año 1949.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1949)",
+          "description": "Acontecimiento histórico mundial durante el año 1949.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1950,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España en la ONU",
+          "description": "España es admitida en Naciones Unidas buscando reintegración internacional bajo franquismo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Unión Europea embrión",
+          "description": "Se crean instituciones que precedieron formación de la Unión Europea buscando paz duradera.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Guerra de Corea",
+          "description": "Comienza la Guerra de Corea entre Corea del Norte y del Sur con intervención de potencias mundiales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1951,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1951 en España",
+          "description": "Eventos históricos importantes en España durante el año 1951.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1951)",
+          "description": "Desarrollo histórico en Europa durante el año 1951.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1951)",
+          "description": "Acontecimiento histórico mundial durante el año 1951.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1952,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1952 en España",
+          "description": "Eventos históricos importantes en España durante el año 1952.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1952)",
+          "description": "Desarrollo histórico en Europa durante el año 1952.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1952)",
+          "description": "Acontecimiento histórico mundial durante el año 1952.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1953,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1953 en España",
+          "description": "Eventos históricos importantes en España durante el año 1953.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1953)",
+          "description": "Desarrollo histórico en Europa durante el año 1953.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1953)",
+          "description": "Acontecimiento histórico mundial durante el año 1953.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1954,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1954 en España",
+          "description": "Eventos históricos importantes en España durante el año 1954.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1954)",
+          "description": "Desarrollo histórico en Europa durante el año 1954.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1954)",
+          "description": "Acontecimiento histórico mundial durante el año 1954.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1955,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1955 en España",
+          "description": "Eventos históricos importantes en España durante el año 1955.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1955)",
+          "description": "Desarrollo histórico en Europa durante el año 1955.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1955)",
+          "description": "Acontecimiento histórico mundial durante el año 1955.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1956,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1956 en España",
+          "description": "Eventos históricos importantes en España durante el año 1956.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1956)",
+          "description": "Desarrollo histórico en Europa durante el año 1956.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1956)",
+          "description": "Acontecimiento histórico mundial durante el año 1956.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1957,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1957 en España",
+          "description": "Eventos históricos importantes en España durante el año 1957.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1957)",
+          "description": "Desarrollo histórico en Europa durante el año 1957.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1957)",
+          "description": "Acontecimiento histórico mundial durante el año 1957.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1958,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1958 en España",
+          "description": "Eventos históricos importantes en España durante el año 1958.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1958)",
+          "description": "Desarrollo histórico en Europa durante el año 1958.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1958)",
+          "description": "Acontecimiento histórico mundial durante el año 1958.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1959,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1959 en España",
+          "description": "Eventos históricos importantes en España durante el año 1959.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1959)",
+          "description": "Desarrollo histórico en Europa durante el año 1959.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1959)",
+          "description": "Acontecimiento histórico mundial durante el año 1959.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1960,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1960 en España",
+          "description": "Eventos históricos importantes en España durante el año 1960.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1960)",
+          "description": "Desarrollo histórico en Europa durante el año 1960.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1960)",
+          "description": "Acontecimiento histórico mundial durante el año 1960.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1961,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1961 en España",
+          "description": "Eventos históricos importantes en España durante el año 1961.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1961)",
+          "description": "Desarrollo histórico en Europa durante el año 1961.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1961)",
+          "description": "Acontecimiento histórico mundial durante el año 1961.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1962 en España",
+          "description": "Eventos históricos importantes en España durante el año 1962.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1962)",
+          "description": "Desarrollo histórico en Europa durante el año 1962.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1962)",
+          "description": "Acontecimiento histórico mundial durante el año 1962.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1963,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1963 en España",
+          "description": "Eventos históricos importantes en España durante el año 1963.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1963)",
+          "description": "Desarrollo histórico en Europa durante el año 1963.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1963)",
+          "description": "Acontecimiento histórico mundial durante el año 1963.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1964,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1964 en España",
+          "description": "Eventos históricos importantes en España durante el año 1964.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1964)",
+          "description": "Desarrollo histórico en Europa durante el año 1964.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1964)",
+          "description": "Acontecimiento histórico mundial durante el año 1964.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1965,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1965 en España",
+          "description": "Eventos históricos importantes en España durante el año 1965.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1965)",
+          "description": "Desarrollo histórico en Europa durante el año 1965.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1965)",
+          "description": "Acontecimiento histórico mundial durante el año 1965.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1966 en España",
+          "description": "Eventos históricos importantes en España durante el año 1966.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1966)",
+          "description": "Desarrollo histórico en Europa durante el año 1966.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1966)",
+          "description": "Acontecimiento histórico mundial durante el año 1966.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1967,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1967 en España",
+          "description": "Eventos históricos importantes en España durante el año 1967.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1967)",
+          "description": "Desarrollo histórico en Europa durante el año 1967.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1967)",
+          "description": "Acontecimiento histórico mundial durante el año 1967.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1968,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Cambios en España",
+          "description": "España experimenta transformaciones culturales y sociales durante final del franquismo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Mayo del 68 en París",
+          "description": "Movimiento estudiantil revolucionario en Francia genera protestas masivas contra sistema.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Movimientos revolucionarios",
+          "description": "Año de revoluciones con movimientos estudiantiles y políticos en todo el mundo contemporáneo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1969,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1969 en España",
+          "description": "Eventos históricos importantes en España durante el año 1969.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1969)",
+          "description": "Desarrollo histórico en Europa durante el año 1969.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1969)",
+          "description": "Acontecimiento histórico mundial durante el año 1969.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1970,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1970 en España",
+          "description": "Eventos históricos importantes en España durante el año 1970.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1970)",
+          "description": "Desarrollo histórico en Europa durante el año 1970.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1970)",
+          "description": "Acontecimiento histórico mundial durante el año 1970.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1971,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1971 en España",
+          "description": "Eventos históricos importantes en España durante el año 1971.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1971)",
+          "description": "Desarrollo histórico en Europa durante el año 1971.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1971)",
+          "description": "Acontecimiento histórico mundial durante el año 1971.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1972,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1972 en España",
+          "description": "Eventos históricos importantes en España durante el año 1972.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1972)",
+          "description": "Desarrollo histórico en Europa durante el año 1972.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1972)",
+          "description": "Acontecimiento histórico mundial durante el año 1972.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1973,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1973 en España",
+          "description": "Eventos históricos importantes en España durante el año 1973.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1973)",
+          "description": "Desarrollo histórico en Europa durante el año 1973.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1973)",
+          "description": "Acontecimiento histórico mundial durante el año 1973.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1974,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1974 en España",
+          "description": "Eventos históricos importantes en España durante el año 1974.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1974)",
+          "description": "Desarrollo histórico en Europa durante el año 1974.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1974)",
+          "description": "Acontecimiento histórico mundial durante el año 1974.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1975,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Muerte de Franco",
+          "description": "Muere el General Franco terminando dictadura de 39 años e iniciando Transición democrática española.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acta de Helsinki",
+          "description": "Se firma el Acta de Helsinki estableciendo principios de cooperación internacional en Europa.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Fin de la Guerra de Vietnam",
+          "description": "La Guerra de Vietnam termina con reunificación de Vietnam bajo gobierno comunista.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1976,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1976 en España",
+          "description": "Eventos históricos importantes en España durante el año 1976.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1976)",
+          "description": "Desarrollo histórico en Europa durante el año 1976.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1976)",
+          "description": "Acontecimiento histórico mundial durante el año 1976.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1977,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1977 en España",
+          "description": "Eventos históricos importantes en España durante el año 1977.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1977)",
+          "description": "Desarrollo histórico en Europa durante el año 1977.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1977)",
+          "description": "Acontecimiento histórico mundial durante el año 1977.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1978,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Constitución española",
+          "description": "Se promulga la Constitución Española de 1978 estableciendo Sistema Democrático en España.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Revolución iraní en ciernes",
+          "description": "Irán se prepara para revolucionaria transformación política bajo liderazgo de Jomeini.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Papa Juan Pablo II",
+          "description": "Karol Wojtyla elegido Papa como Juan Pablo II comienza papado que transformará Iglesia.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1979,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1979 en España",
+          "description": "Eventos históricos importantes en España durante el año 1979.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1979)",
+          "description": "Desarrollo histórico en Europa durante el año 1979.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1979)",
+          "description": "Acontecimiento histórico mundial durante el año 1979.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1980,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1980 en España",
+          "description": "Eventos históricos importantes en España durante el año 1980.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1980)",
+          "description": "Desarrollo histórico en Europa durante el año 1980.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1980)",
+          "description": "Acontecimiento histórico mundial durante el año 1980.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1981,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1981 en España",
+          "description": "Eventos históricos importantes en España durante el año 1981.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1981)",
+          "description": "Desarrollo histórico en Europa durante el año 1981.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1981)",
+          "description": "Acontecimiento histórico mundial durante el año 1981.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1982,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1982 en España",
+          "description": "Eventos históricos importantes en España durante el año 1982.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1982)",
+          "description": "Desarrollo histórico en Europa durante el año 1982.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1982)",
+          "description": "Acontecimiento histórico mundial durante el año 1982.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1983,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1983 en España",
+          "description": "Eventos históricos importantes en España durante el año 1983.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1983)",
+          "description": "Desarrollo histórico en Europa durante el año 1983.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1983)",
+          "description": "Acontecimiento histórico mundial durante el año 1983.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1984,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1984 en España",
+          "description": "Eventos históricos importantes en España durante el año 1984.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1984)",
+          "description": "Desarrollo histórico en Europa durante el año 1984.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1984)",
+          "description": "Acontecimiento histórico mundial durante el año 1984.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1985,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1985 en España",
+          "description": "Eventos históricos importantes en España durante el año 1985.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1985)",
+          "description": "Desarrollo histórico en Europa durante el año 1985.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1985)",
+          "description": "Acontecimiento histórico mundial durante el año 1985.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España en OTAN",
+          "description": "España se integra en la OTAN bajo gobierno socialista de Felipe González completando integración.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Desastre de Chernóbil",
+          "description": "Explosión nuclear en Chernóbil cerca Kiev causa catástrofe ambiental y humana en Unión Soviética.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Catástrofe nuclear de Chernóbil",
+          "description": "Mayor accidente nuclear de historia ocurre en planta Chernóbil en Ucrania soviética.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1987,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1987 en España",
+          "description": "Eventos históricos importantes en España durante el año 1987.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1987)",
+          "description": "Desarrollo histórico en Europa durante el año 1987.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1987)",
+          "description": "Acontecimiento histórico mundial durante el año 1987.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1988,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1988 en España",
+          "description": "Eventos históricos importantes en España durante el año 1988.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1988)",
+          "description": "Desarrollo histórico en Europa durante el año 1988.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1988)",
+          "description": "Acontecimiento histórico mundial durante el año 1988.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1989,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España modernizada",
+          "description": "España prosigue transformación democrática y modernización en final de década de 1980.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Caída del Muro de Berlín",
+          "description": "Cae el Muro de Berlín simbolizando fin de Guerra Fría y división de Alemania.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Fin de la Guerra Fría",
+          "description": "Guerra Fría termina con caída del Muro de Berlín y colapso de Unión Soviética.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1990 en España",
+          "description": "Eventos históricos importantes en España durante el año 1990.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1990)",
+          "description": "Desarrollo histórico en Europa durante el año 1990.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1990)",
+          "description": "Acontecimiento histórico mundial durante el año 1990.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1991,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1991 en España",
+          "description": "Eventos históricos importantes en España durante el año 1991.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1991)",
+          "description": "Desarrollo histórico en Europa durante el año 1991.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1991)",
+          "description": "Acontecimiento histórico mundial durante el año 1991.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1992,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Olimpiadas de Barcelona",
+          "description": "España alberga Juegos Olímpicos de Barcelona proyectando imagen moderna al mundo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Tratado de Maastricht",
+          "description": "Se firma el Tratado de Maastricht profundizando integración europea hacia Unión Europea.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Colapso de la URSS",
+          "description": "La Unión Soviética se colapsa dando paso a estados independientes en Europa del Este.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1993,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1993 en España",
+          "description": "Eventos históricos importantes en España durante el año 1993.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1993)",
+          "description": "Desarrollo histórico en Europa durante el año 1993.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1993)",
+          "description": "Acontecimiento histórico mundial durante el año 1993.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1994 en España",
+          "description": "Eventos históricos importantes en España durante el año 1994.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1994)",
+          "description": "Desarrollo histórico en Europa durante el año 1994.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1994)",
+          "description": "Acontecimiento histórico mundial durante el año 1994.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1995,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Desarrollo español",
+          "description": "España prosigue desarrollo económico y social en período de estabilidad postdictadura.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Unión Europea ampliada",
+          "description": "La Unión Europea se amplía a quince miembros integrando países de Europa Central y del Este.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Crecimiento de Internet",
+          "description": "Internet comienza expansión masiva transformando comunicaciones y comercio mundiales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1996,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1996 en España",
+          "description": "Eventos históricos importantes en España durante el año 1996.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1996)",
+          "description": "Desarrollo histórico en Europa durante el año 1996.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1996)",
+          "description": "Acontecimiento histórico mundial durante el año 1996.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1997,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1997 en España",
+          "description": "Eventos históricos importantes en España durante el año 1997.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1997)",
+          "description": "Desarrollo histórico en Europa durante el año 1997.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1997)",
+          "description": "Acontecimiento histórico mundial durante el año 1997.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1998 en España",
+          "description": "Eventos históricos importantes en España durante el año 1998.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1998)",
+          "description": "Desarrollo histórico en Europa durante el año 1998.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1998)",
+          "description": "Acontecimiento histórico mundial durante el año 1998.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 1999,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 1999 en España",
+          "description": "Eventos históricos importantes en España durante el año 1999.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (1999)",
+          "description": "Desarrollo histórico en Europa durante el año 1999.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (1999)",
+          "description": "Acontecimiento histórico mundial durante el año 1999.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2000,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "España en siglo XXI",
+          "description": "España entra en nuevo milenio como democracia consolidada en la Unión Europea.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Unión Europea fuerte",
+          "description": "La Unión Europea se consolida como bloque político y económico en Europa occidental.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Boom de tecnología",
+          "description": "Boom de tecnología y punto com genera transformación digital de la economía global.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2001,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2001 en España",
+          "description": "Eventos históricos importantes en España durante el año 2001.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2001)",
+          "description": "Desarrollo histórico en Europa durante el año 2001.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2001)",
+          "description": "Acontecimiento histórico mundial durante el año 2001.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2002 en España",
+          "description": "Eventos históricos importantes en España durante el año 2002.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2002)",
+          "description": "Desarrollo histórico en Europa durante el año 2002.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2002)",
+          "description": "Acontecimiento histórico mundial durante el año 2002.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2003,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2003 en España",
+          "description": "Eventos históricos importantes en España durante el año 2003.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2003)",
+          "description": "Desarrollo histórico en Europa durante el año 2003.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2003)",
+          "description": "Acontecimiento histórico mundial durante el año 2003.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2004,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Ampliación UE y atentados",
+          "description": "España es alcanzada por atentados terroristas en Madrid entre cambios políticos importantes.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Ampliación de la UE",
+          "description": "Unión Europea se amplia a veinticinco miembros integrando países de Europa del Este.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Expansión de China",
+          "description": "China emerge como potencia económica creciente durante período de rápido desarrollo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2005,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2005 en España",
+          "description": "Eventos históricos importantes en España durante el año 2005.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2005)",
+          "description": "Desarrollo histórico en Europa durante el año 2005.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2005)",
+          "description": "Acontecimiento histórico mundial durante el año 2005.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2006 en España",
+          "description": "Eventos históricos importantes en España durante el año 2006.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2006)",
+          "description": "Desarrollo histórico en Europa durante el año 2006.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2006)",
+          "description": "Acontecimiento histórico mundial durante el año 2006.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2007 en España",
+          "description": "Eventos históricos importantes en España durante el año 2007.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2007)",
+          "description": "Desarrollo histórico en Europa durante el año 2007.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2007)",
+          "description": "Acontecimiento histórico mundial durante el año 2007.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Crisis económica",
+          "description": "España es afectada por crisis financiera global con desempleo y crisis inmobiliaria.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Gran Recesión económica",
+          "description": "Gran Recesión económica afecta Europa tras colapso del sistema financiero estadounidense.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Colapso financiero global",
+          "description": "Gran Recesión comienza con colapso de Lehman Brothers afectando economía mundial.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2009 en España",
+          "description": "Eventos históricos importantes en España durante el año 2009.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2009)",
+          "description": "Desarrollo histórico en Europa durante el año 2009.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2009)",
+          "description": "Acontecimiento histórico mundial durante el año 2009.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2010 en España",
+          "description": "Eventos históricos importantes en España durante el año 2010.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2010)",
+          "description": "Desarrollo histórico en Europa durante el año 2010.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2010)",
+          "description": "Acontecimiento histórico mundial durante el año 2010.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Movimiento de indignados",
+          "description": "Movimiento 15-M genera protestas masivas en España contra austeridad y desempleo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Crisis de deuda soberana",
+          "description": "Crisis de deuda soberana afecta a países europeos especialmente en Zona Euro.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Primavera Árabe",
+          "description": "Primavera Árabe genera cambios políticos en Medio Oriente y Norte de África.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2012 en España",
+          "description": "Eventos históricos importantes en España durante el año 2012.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2012)",
+          "description": "Desarrollo histórico en Europa durante el año 2012.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2012)",
+          "description": "Acontecimiento histórico mundial durante el año 2012.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2013 en España",
+          "description": "Eventos históricos importantes en España durante el año 2013.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2013)",
+          "description": "Desarrollo histórico en Europa durante el año 2013.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2013)",
+          "description": "Acontecimiento histórico mundial durante el año 2013.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Independencia catalana",
+          "description": "Referéndum sobre independencia de Cataluña genera crisis política en España.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Crisis de Ucrania",
+          "description": "Rusia anexiona Crimea y crisis en Ucrania generan tensiones geopolíticas en Europa.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Cambios geopolíticos",
+          "description": "Cambios geopolíticos importantes con reconfiguración de equilibrios de poder mundiales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2015 en España",
+          "description": "Eventos históricos importantes en España durante el año 2015.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2015)",
+          "description": "Desarrollo histórico en Europa durante el año 2015.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2015)",
+          "description": "Acontecimiento histórico mundial durante el año 2015.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2016 en España",
+          "description": "Eventos históricos importantes en España durante el año 2016.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2016)",
+          "description": "Desarrollo histórico en Europa durante el año 2016.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2016)",
+          "description": "Acontecimiento histórico mundial durante el año 2016.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2017 en España",
+          "description": "Eventos históricos importantes en España durante el año 2017.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2017)",
+          "description": "Desarrollo histórico en Europa durante el año 2017.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2017)",
+          "description": "Acontecimiento histórico mundial durante el año 2017.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2018 en España",
+          "description": "Eventos históricos importantes en España durante el año 2018.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2018)",
+          "description": "Desarrollo histórico en Europa durante el año 2018.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2018)",
+          "description": "Acontecimiento histórico mundial durante el año 2018.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "events": [
+        {
+          "region": "Spain",
+          "title": "Año 2019 en España",
+          "description": "Eventos históricos importantes en España durante el año 2019.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Espa%C3%B1a"
+        },
+        {
+          "region": "Europe",
+          "title": "Acontecimiento en Europa (2019)",
+          "description": "Desarrollo histórico en Europa durante el año 2019.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_de_Europa"
+        },
+        {
+          "region": "World",
+          "title": "Acontecimiento mundial (2019)",
+          "description": "Acontecimiento histórico mundial durante el año 2019.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Historia_mundial"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "events": [
+        {
+          "region": "World",
+          "title": "Pandemia de COVID-19",
+          "description": "La pandemia de COVID-19 se convirtió en el evento más significativo de 2020. La enfermedad causada por el coronavirus SARS-CoV-2 se propagó globalmente, causando millones de muertes y transformando la vida cotidiana con confinamientos, vacunaciones y cambios en el trabajo remoto.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/COVID-19_Outbreak_World_Map.svg/640px-COVID-19_Outbreak_World_Map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19"
+        },
+        {
+          "region": "Europe",
+          "title": "Elecciones presidenciales en EE.UU.",
+          "description": "Joe Biden ganó las elecciones presidenciales estadounidenses de 2020, derrotando al presidente Donald Trump. Los resultados tuvieron implicaciones significativas para la política global.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_the_United_States.svg/640px-Flag_of_the_United_States.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Elecciones_presidenciales_de_Estados_Unidos_de_2020"
+        },
+        {
+          "region": "Spain",
+          "title": "Segunda ola de COVID en España",
+          "description": "España enfrentó su segunda ola de COVID-19 con nuevas restricciones y confinamientos selectivos para frenar la propagación del virus durante el otoño e invierno de 2020.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19_en_Espa%C3%B1a"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "events": [
+        {
+          "region": "World",
+          "title": "Campañas de vacunación contra COVID-19",
+          "description": "2021 marcó el año de las campañas masivas de vacunación contra el COVID-19. Millones de personas en todo el mundo recibieron sus primeras dosis de vacunas desarrolladas a velocidad récord, ofreciendo esperanza de fin de la pandemia.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponotus_flavomarginatus_ant.jpg/640px-Camponotus_flavomarginatus_ant.jpg",
+          "wikipedia": "https://es.wikipedia.org/wiki/Vacuna_contra_la_COVID-19"
+        },
+        {
+          "region": "Europe",
+          "title": "Crisis de energía en Europa",
+          "description": "Europa experimentó una crisis energética significativa con precios del gas natural alcanzando máximos históricos, afectando tanto a hogares como a industrias durante el otoño de 2021.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Crisis_energ%C3%A9tica_de_Europa_de_2021"
+        },
+        {
+          "region": "Spain",
+          "title": "Recuperación económica en España",
+          "description": "España inició su recuperación económica con crecimiento del PIB impulsado por el turismo y la inversión europea del Fondo de Recuperación, alcanzando nuevos empleos.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Econom%C3%ADa_de_Espa%C3%B1a"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "events": [
+        {
+          "region": "World",
+          "title": "Invasión rusa de Ucrania",
+          "description": "El 24 de febrero de 2022, Rusia lanzó una invasión militar a gran escala de Ucrania, causando una de las mayores crisis humanitarias de Europa en décadas, desplazamientos masivos de población y cambios geopolíticos globales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Ukraine.svg/640px-Flag_of_Ukraine.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Invasi%C3%B3n_rusa_de_Ucrania_de_2022"
+        },
+        {
+          "region": "Europe",
+          "title": "Crisis energética y de inflación",
+          "description": "Europa enfrentó inflación récord e incertidumbre energética como consecuencia de la guerra en Ucrania, con crisis de gas natural e impacto económico significativo en todos los países.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Crisis_de_precios_de_energ%C3%ADa_en_Europa"
+        },
+        {
+          "region": "Spain",
+          "title": "Elecciones generales en España",
+          "description": "España celebró elecciones generales el 28 de julio de 2022, con resultados fragmentados y negociaciones complejas para formar gobierno. Pedro Sánchez fue reelegido presidente.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Elecciones_generales_de_Espa%C3%B1a_de_2022"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "events": [
+        {
+          "region": "World",
+          "title": "Auge de la Inteligencia Artificial",
+          "description": "2023 vio la explosión de las tecnologías de IA generativa, especialmente con el lanzamiento de ChatGPT a nivel masivo, transformando la tecnología, educación y mundo empresarial globalmente.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/640px-ChatGPT_logo.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/GPT-4"
+        },
+        {
+          "region": "Europe",
+          "title": "Terremoto en Turquía y Siria",
+          "description": "Un devastador terremoto de magnitud 7.8 afectó Turquía y Siria en febrero de 2023, causando más de 50,000 muertes y dejando millones de personas sin hogar, siendo uno de los peores desastres naturales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Flag_of_Turkey.svg/640px-Flag_of_Turkey.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Terremoto_de_Turqu%C3%ADa_y_Siria_de_2023"
+        },
+        {
+          "region": "Spain",
+          "title": "Crecimiento turístico récord",
+          "description": "España alcanzó cifras récord de turismo internacional en 2023 con más de 85 millones de visitantes, consolidándose como uno de los principales destinos turísticos mundiales.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Turismo_en_Espa%C3%B1a"
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "events": [
+        {
+          "region": "World",
+          "title": "Elecciones globales históricas",
+          "description": "2024 fue el año con más elecciones presidenciales simultáneas en la historia, incluyendo en India, México, Indonesia y Bangladesh, con implicaciones significativas para la política global.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ballot_box.svg/640px-Ballot_box.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/2024"
+        },
+        {
+          "region": "Europe",
+          "title": "Juegos Olímpicos París 2024",
+          "description": "París acogió los Juegos Olímpicos de 2024 con participación de atletas de todo el mundo. El evento fue un éxito cultural y deportivo que mostró la resiliencia de la ciudad.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Paris_2024_logo.svg/640px-Paris_2024_logo.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Juegos_Ol%C3%ADmpicos_de_Par%C3%ADs_2024"
+        },
+        {
+          "region": "Spain",
+          "title": "Gobierno de coalición consolidado",
+          "description": "El gobierno de coalición entre PSOE y Sumar de Pedro Sánchez se consolidó en 2024 con aprobación de presupuestos y reformas legislativas importantes para España.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/XIII_Legislatura_de_Espa%C3%B1a"
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "events": [
+        {
+          "region": "World",
+          "title": "Avances en sostenibilidad",
+          "description": "2025 marca un año crucial en la agenda de sostenibilidad global, con inversiones récord en energías renovables, tecnologías limpias y compromisos para reducir emisiones de carbono en todo el mundo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/World_map.svg/640px-World_map.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Objetivos_de_Desarrollo_Sostenible"
+        },
+        {
+          "region": "Europe",
+          "title": "Consolidación de la Unión Europea",
+          "description": "La UE continúa con sus estrategias de defensa autónoma, transformación digital y transición energética, fortaleciendo su posición geopolítica independiente.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/EU_flag.svg/640px-EU_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Uni%C3%B3n_Europea"
+        },
+        {
+          "region": "Spain",
+          "title": "Transformación digital española",
+          "description": "España acelera su transformación digital con inversión en startups tecnológicas, talento digital y consolidación de su posición como hub tecnológico europeo.",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Spanish_flag.svg/640px-Spanish_flag.svg.png",
+          "wikipedia": "https://es.wikipedia.org/wiki/Econom%C3%ADa_digital"
+        }
+      ]
+    }
+  ]
+}
