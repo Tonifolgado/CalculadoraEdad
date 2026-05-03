@@ -16,10 +16,6 @@ if (birthdateInput) {
     });
 }
 
-/**
- * Calculates the age of a person based on their birthdate and displays it in years, months, weeks, days, and hours.
- * @returns {void}
- */
 function calculateAge() {
     if (!birthdateInput || !errorMessage || !resultsDiv || !formattedDateDisplay) return;
 
@@ -59,18 +55,117 @@ function calculateAge() {
     const totalMonths = Math.floor(days / 30.44);
     const totalYears = Math.floor(days / 365.25);
 
-    const yearsEl = document.getElementById('years');
-    if (yearsEl) yearsEl.textContent = totalYears.toLocaleString();
+    (document.getElementById('years') as HTMLElement).textContent = totalYears.toLocaleString();
+    (document.getElementById('months') as HTMLElement).textContent = totalMonths.toLocaleString();
+    (document.getElementById('weeks') as HTMLElement).textContent = weeks.toLocaleString();
+    (document.getElementById('days') as HTMLElement).textContent = days.toLocaleString();
+    (document.getElementById('hours') as HTMLElement).textContent = hours.toLocaleString();
+}
 
-    const monthsEl = document.getElementById('months');
-    if (monthsEl) monthsEl.textContent = totalMonths.toLocaleString();
+// --- Funciones para generar contenido histórico ---
 
-    const weeksEl = document.getElementById('weeks');
-    if (weeksEl) weeksEl.textContent = weeks.toLocaleString();
+async function generateHistoricalContent() {
+    if (!birthdateInput.value) {
+        errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida.';
+        errorMessage.classList.remove('hidden');
+        return;
+    }
 
-    const daysEl = document.getElementById('days');
-    if (daysEl) daysEl.textContent = days.toLocaleString();
+    geminiBtn.disabled = true;
+    geminiBtn.textContent = 'Explorando la historia...';
+    geminiOutputDiv.classList.remove('hidden');
+    geminiOutputDiv.innerHTML = '<p class="text-gray-600 text-center animate-pulse py-8">Generando el pasado, por favor espera...</p>';
 
-    const hoursEl = document.getElementById('hours');
-    if (hoursEl) hoursEl.textContent = hours.toLocaleString();
+    try {
+        const birthYear = new Date(birthdateInput.value).getFullYear();
+        const events = await getHistoricalEvents(birthYear);
+        displayEventsAsTable(events);
+    } catch (error) {
+        console.error(error);
+        geminiOutputDiv.innerHTML = '<p class="text-red-500 text-center py-4 font-medium">No se pudieron generar los eventos. Por favor, inténtalo de nuevo.</p>';
+    } finally {
+        geminiBtn.disabled = false;
+        geminiBtn.textContent = '⌛ Ver hitos históricos ⌛';
+    }
+}
+
+async function getHistoricalEvents(birthYear: number): Promise<any[]> {
+    const currentYear = new Date().getFullYear();
+    
+    const prompt = `Genera una lista de acontecimientos históricos relevantes, uno internacional y uno local (de España), para cada año desde ${birthYear} hasta ${currentYear}.`;
+
+    const response = await ai.models.generateContent({
+       model: "gemini-2.5-flash",
+       contents: prompt,
+       config: {
+         responseMimeType: "application/json",
+         responseSchema: {
+            type: Type.ARRAY,
+            items: {
+              type: Type.OBJECT,
+              properties: {
+                year: {
+                  type: Type.STRING,
+                  description: 'El año del acontecimiento.',
+                },
+                international: {
+                  type: Type.STRING,
+                  description: 'Un acontecimiento internacional relevante de ese año.',
+                },
+                local: {
+                  type: Type.STRING,
+                  description: 'Un acontecimiento local relevante de España para ese año.',
+                },
+              },
+              required: ['year', 'international', 'local'],
+            },
+          },
+       },
+    });
+
+    const jsonText = response.text.trim();
+    return JSON.parse(jsonText);
+}
+
+function displayEventsAsTable(events: any[]) {
+    geminiOutputDiv.innerHTML = '';
+    
+    if (!Array.isArray(events) || events.length === 0) {
+        geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">No se encontraron eventos históricos para este período.</p>';
+        return;
+    }
+
+    const tableWrapper = document.createElement('div');
+    tableWrapper.classList.add('overflow-x-auto', 'rounded-xl');
+    
+    const table = document.createElement('table');
+    table.classList.add('w-full');
+    
+    const thead = document.createElement('thead');
+    thead.innerHTML = '<tr><th class="text-left">Año</th><th class="text-left">Internacional</th><th class="text-left">España</th></tr>';
+    table.appendChild(thead);
+    
+    const tbody = document.createElement('tbody');
+    events.forEach(event => {
+        const row = document.createElement('tr');
+        row.classList.add('hover:bg-blue-50/50', 'transition-colors');
+        
+        const yearCell = document.createElement('td');
+        const internationalCell = document.createElement('td');
+        const localCell = document.createElement('td');
+        
+        yearCell.classList.add('font-bold', 'text-blue-700');
+        yearCell.textContent = event.year;
+        internationalCell.textContent = event.international;
+        localCell.textContent = event.local;
+        
+        row.appendChild(yearCell);
+        row.appendChild(internationalCell);
+        row.appendChild(localCell);
+        tbody.appendChild(row);
+    });
+    table.appendChild(tbody);
+    
+    tableWrapper.appendChild(table);
+    geminiOutputDiv.appendChild(tableWrapper);
 }
