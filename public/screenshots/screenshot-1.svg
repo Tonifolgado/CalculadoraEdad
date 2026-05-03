@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  <rect x="40" y="40" width="1120" height="120" rx="12" fill="#1f2937"/>
+  <text x="80" y="110" fill="#fff" font-size="36" font-family="Arial">Age Calculator — Enter birthdate</text>
+  <g transform="translate(80,200)">
+    <rect width="440" height="220" rx="8" fill="#fff" stroke="#e5e7eb"/>
+    <text x="24" y="40" fill="#111827" font-size="20" font-family="Arial">Calculated Age</text>
+    <text x="24" y="80" fill="#6b7280" font-size="16" font-family="Arial">Years: 29</text>
+    <text x="24" y="110" fill="#6b7280" font-size="16" font-family="Arial">Months: 3</text>
+    <text x="24" y="140" fill="#6b7280" font-size="16" font-family="Arial">Days: 12</text>
+  </g>
+  <g transform="translate(560,200)">
+    <rect width="520" height="220" rx="8" fill="#fff" stroke="#e5e7eb"/>
+    <text x="24" y="40" fill="#111827" font-size="20" font-family="Arial">Historical Events</text>
+    <rect x="24" y="60" width="460" height="10" rx="5" fill="#eef2ff"/>
+    <text x="24" y="110" fill="#374151" font-size="14" font-family="Arial">• 1994 — Example event A</text>
+    <text x="24" y="140" fill="#374151" font-size="14" font-family="Arial">• 2006 — Example event B</text>
+  </g>
+  <text x="80" y="520" fill="#6b7280" font-size="14" font-family="Arial">(Mock screenshot — replace with real app capture)</text>
+</svg>
