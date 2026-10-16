@@ -27,12 +27,7 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
             border-color: #dbeafe;
         }
-        .gemini-card {
-            background-color: #f0f9ff;
-            border-radius: 1rem;
-            border: 1px solid #bae6fd;
-        }
-        table {
+table {
             width: 100%;
             border-collapse: separate;
             border-spacing: 0;
@@ -55,15 +50,8 @@
             border-bottom: none;
         }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
-  }
-}
-</script>
 </head>
-<body class="min-h-screen flex items-center justify-center p-4">
+<body class="min-h-screen flex flex-col items-center justify-center p-4 gap-6">
 
     <div class="container-glass max-w-xl w-full p-8 md:p-10 text-center">
         <h1 class="text-4xl font-extrabold text-gray-900 mb-2 tracking-tight">Calculadora de Edad</h1>
@@ -112,16 +100,42 @@
                 </div>
             </div>
 
-            <button id="gemini-btn" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-6 rounded-xl shadow-lg shadow-blue-200 transition-all duration-200 focus:ring-4 focus:ring-blue-200 active:scale-[0.98] disabled:bg-gray-300 disabled:shadow-none">
-                ⌛ Ver hitos históricos ⌛
-            </button>
-            
-            <div id="gemini-output" class="gemini-card hidden p-6 overflow-hidden">
-                <!-- La tabla se generará aquí -->
-            </div>
         </div>
 
         <p id="error-message" class="hidden text-sm font-medium text-red-500 mt-6 p-3 bg-red-50 rounded-lg"></p>
+    </div>
+
+    <!-- Converter: time unit → years -->
+    <div class="container-glass max-w-xl w-full p-8 md:p-10 text-center">
+        <h2 class="text-2xl font-extrabold text-gray-900 mb-2 tracking-tight">Convertir tiempo a años</h2>
+        <p class="text-gray-500 mb-6">Introduce un valor y selecciona la unidad.</p>
+
+        <div class="flex gap-3 mb-6">
+            <input
+                type="number"
+                id="time-input"
+                min="0"
+                placeholder="Ej. 8760"
+                class="flex-1 px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 outline-none text-right"
+            >
+            <select
+                id="unit-select"
+                class="px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 outline-none font-medium text-gray-700"
+            >
+                <option value="hours">Horas</option>
+                <option value="months">Meses</option>
+                <option value="minutes">Minutos</option>
+            </select>
+        </div>
+
+        <div id="conversion-result" class="hidden metric-card rounded-2xl p-6 text-center">
+            <span class="text-[10px] uppercase tracking-widest font-bold text-gray-400 block mb-1">Equivale a</span>
+            <span id="converted-years" class="text-4xl font-black text-blue-600">0</span>
+            <span class="text-xl font-bold text-gray-500 ml-2">años</span>
+            <p id="conversion-detail" class="text-xs text-gray-400 mt-2"></p>
+        </div>
+
+        <p id="conversion-error" class="hidden text-sm font-medium text-red-500 mt-4 p-3 bg-red-50 rounded-lg"></p>
     </div>
 
     <script type="module" src="index.tsx"></script>

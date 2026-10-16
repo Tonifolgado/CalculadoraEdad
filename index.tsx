@@ -62,110 +62,70 @@ function calculateAge() {
     (document.getElementById('hours') as HTMLElement).textContent = hours.toLocaleString();
 }
 
-// --- Funciones para generar contenido histórico ---
+// --- Conversor de unidad de tiempo a años ---
 
-async function generateHistoricalContent() {
-    if (!birthdateInput.value) {
-        errorMessage.textContent = 'Por favor, introduce una fecha de nacimiento válida.';
-        errorMessage.classList.remove('hidden');
+const timeInput = document.getElementById('time-input') as HTMLInputElement | null;
+const unitSelect = document.getElementById('unit-select') as HTMLSelectElement | null;
+const conversionResult = document.getElementById('conversion-result') as HTMLDivElement | null;
+const convertedYearsEl = document.getElementById('converted-years') as HTMLSpanElement | null;
+const conversionDetail = document.getElementById('conversion-detail') as HTMLParagraphElement | null;
+const conversionError = document.getElementById('conversion-error') as HTMLParagraphElement | null;
+
+const HOURS_PER_YEAR = 365.2425 * 24;        // 8765.82
+const MONTHS_PER_YEAR = 12;
+const MINUTES_PER_YEAR = 365.2425 * 24 * 60; // 525,949.2
+
+function convertTimeToYears() {
+    if (!timeInput || !unitSelect || !conversionResult || !convertedYearsEl || !conversionDetail || !conversionError) return;
+
+    const raw = timeInput.value;
+    const value = parseFloat(raw);
+
+    if (raw === '' || isNaN(value)) {
+        conversionResult.classList.add('hidden');
+        conversionError.classList.add('hidden');
         return;
     }
 
-    geminiBtn.disabled = true;
-    geminiBtn.textContent = 'Explorando la historia...';
-    geminiOutputDiv.classList.remove('hidden');
-    geminiOutputDiv.innerHTML = '<p class="text-gray-600 text-center animate-pulse py-8">Generando el pasado, por favor espera...</p>';
-
-    try {
-        const birthYear = new Date(birthdateInput.value).getFullYear();
-        const events = await getHistoricalEvents(birthYear);
-        displayEventsAsTable(events);
-    } catch (error) {
-        console.error(error);
-        geminiOutputDiv.innerHTML = '<p class="text-red-500 text-center py-4 font-medium">No se pudieron generar los eventos. Por favor, inténtalo de nuevo.</p>';
-    } finally {
-        geminiBtn.disabled = false;
-        geminiBtn.textContent = '⌛ Ver hitos históricos ⌛';
-    }
-}
-
-async function getHistoricalEvents(birthYear: number): Promise<any[]> {
-    const currentYear = new Date().getFullYear();
-    
-    const prompt = `Genera una lista de acontecimientos históricos relevantes, uno internacional y uno local (de España), para cada año desde ${birthYear} hasta ${currentYear}.`;
-
-    const response = await ai.models.generateContent({
-       model: "gemini-2.5-flash",
-       contents: prompt,
-       config: {
-         responseMimeType: "application/json",
-         responseSchema: {
-            type: Type.ARRAY,
-            items: {
-              type: Type.OBJECT,
-              properties: {
-                year: {
-                  type: Type.STRING,
-                  description: 'El año del acontecimiento.',
-                },
-                international: {
-                  type: Type.STRING,
-                  description: 'Un acontecimiento internacional relevante de ese año.',
-                },
-                local: {
-                  type: Type.STRING,
-                  description: 'Un acontecimiento local relevante de España para ese año.',
-                },
-              },
-              required: ['year', 'international', 'local'],
-            },
-          },
-       },
-    });
-
-    const jsonText = response.text.trim();
-    return JSON.parse(jsonText);
-}
-
-function displayEventsAsTable(events: any[]) {
-    geminiOutputDiv.innerHTML = '';
-    
-    if (!Array.isArray(events) || events.length === 0) {
-        geminiOutputDiv.innerHTML = '<p class="text-gray-700 text-center">No se encontraron eventos históricos para este período.</p>';
+    if (value < 0) {
+        conversionError.textContent = 'El valor debe ser positivo.';
+        conversionError.classList.remove('hidden');
+        conversionResult.classList.add('hidden');
         return;
     }
 
-    const tableWrapper = document.createElement('div');
-    tableWrapper.classList.add('overflow-x-auto', 'rounded-xl');
-    
-    const table = document.createElement('table');
-    table.classList.add('w-full');
-    
-    const thead = document.createElement('thead');
-    thead.innerHTML = '<tr><th class="text-left">Año</th><th class="text-left">Internacional</th><th class="text-left">España</th></tr>';
-    table.appendChild(thead);
-    
-    const tbody = document.createElement('tbody');
-    events.forEach(event => {
-        const row = document.createElement('tr');
-        row.classList.add('hover:bg-blue-50/50', 'transition-colors');
-        
-        const yearCell = document.createElement('td');
-        const internationalCell = document.createElement('td');
-        const localCell = document.createElement('td');
-        
-        yearCell.classList.add('font-bold', 'text-blue-700');
-        yearCell.textContent = event.year;
-        internationalCell.textContent = event.international;
-        localCell.textContent = event.local;
-        
-        row.appendChild(yearCell);
-        row.appendChild(internationalCell);
-        row.appendChild(localCell);
-        tbody.appendChild(row);
-    });
-    table.appendChild(tbody);
-    
-    tableWrapper.appendChild(table);
-    geminiOutputDiv.appendChild(tableWrapper);
+    conversionError.classList.add('hidden');
+
+    const unit = unitSelect.value;
+    let years: number;
+    let detailText: string;
+
+    switch (unit) {
+        case 'hours':
+            years = value / HOURS_PER_YEAR;
+            detailText = `${value.toLocaleString('es-ES')} h ÷ ${HOURS_PER_YEAR.toFixed(2)} h/año`;
+            break;
+        case 'months':
+            years = value / MONTHS_PER_YEAR;
+            detailText = `${value.toLocaleString('es-ES')} meses ÷ ${MONTHS_PER_YEAR} meses/año`;
+            break;
+        case 'minutes':
+            years = value / MINUTES_PER_YEAR;
+            detailText = `${value.toLocaleString('es-ES')} min ÷ ${MINUTES_PER_YEAR.toFixed(2)} min/año`;
+            break;
+        default:
+            return;
+    }
+
+    const formatted = years >= 0.01
+        ? years.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+        : years.toPrecision(3);
+
+    conversionResult.classList.remove('hidden');
+    convertedYearsEl.textContent = formatted;
+    conversionDetail.textContent = detailText;
 }
+
+if (timeInput) timeInput.addEventListener('input', convertTimeToYears);
+if (unitSelect) unitSelect.addEventListener('change', convertTimeToYears);
+
