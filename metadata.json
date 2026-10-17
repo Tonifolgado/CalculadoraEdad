@@ -1,5 +1,5 @@
 {
   "name": "CalculadoraEdad",
-  "description": "Esta aplicación devuelve el número de meses, semanas, días y horas desde la fecha de nacimiento, junto con un resumen de los acontecimientos históricos, culturales y científicos que ocurrieron desde esa fecha hasta la actualidad.",
+  "description": "Esta aplicación devuelve el número de meses, semanas, días y horas desde la fecha de nacimiento, con opciones de descarga en PDF o texto plano.",
   "requestFramePermissions": []
 }

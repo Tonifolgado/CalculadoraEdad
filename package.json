@@ -8,9 +8,13 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@google/genai": "^1.25.0",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.9"
+  },
   "devDependencies": {
     "@types/node": "^22.14.0",
-    
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
   }

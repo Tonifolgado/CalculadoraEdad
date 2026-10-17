@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Edad</title>
+    <meta name="description" content="Esta aplicación devuelve el número de meses, semanas, días y horas desde la fecha de nacimiento con opción de guardar el cálculo en PDF o TXT">
+    <meta property="og:title" content="Calculadora de Edad">
+    <meta property="og:description" content="Esta aplicación devuelve el número de meses, semanas, días y horas desde la fecha de nacimiento con opción de guardar el cálculo en PDF o TXT">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
@@ -27,40 +30,82 @@
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
             border-color: #dbeafe;
         }
-table {
-            width: 100%;
-            border-collapse: separate;
-            border-spacing: 0;
-            font-size: 0.85rem;
-        }
-        th {
-            background-color: #e0f2fe;
-            color: #0369a1;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.025em;
-            padding: 1rem;
-        }
-        td {
-            padding: 1rem;
-            border-bottom: 1px solid #f1f5f9;
-            color: #334155;
-        }
-        tr:last-child td {
-            border-bottom: none;
-        }
     </style>
 </head>
-<body class="min-h-screen flex flex-col items-center justify-center p-4 gap-6">
+<body class="min-h-screen flex flex-col items-center justify-center p-4 py-8 gap-6">
 
-    <div class="container-glass max-w-xl w-full p-8 md:p-10 text-center">
-        <h1 class="text-4xl font-extrabold text-gray-900 mb-2 tracking-tight">Calculadora de Edad</h1>
-        <p class="text-gray-500 mb-8">Descubre cuánto tiempo ha pasado y qué ocurrió en el mundo.</p>
+    <div class="container-glass max-w-xl md:max-w-2xl w-full p-6 sm:p-8 md:p-10 text-center">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-2 tracking-tight">Calculadora de Edad</h1>
+        <p class="text-gray-500 mb-6 text-sm sm:text-base">Descubre cuánto tiempo ha pasado en años, meses, semanas, días y horas.</p>
         
-        <div class="mb-8 text-left">
-            <label for="birthdate" class="block text-sm font-semibold text-gray-700 mb-2">Fecha de nacimiento</label>
-            <input type="date" id="birthdate" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 outline-none">
-            <p id="formatted-date-display" class="text-xs font-medium text-blue-500 mt-2 hidden"></p>
+        <div class="mb-6 text-left">
+            <div class="flex items-center justify-between mb-1.5">
+                <label class="block text-sm font-semibold text-gray-700">Fecha de nacimiento</label>
+                <span class="text-xs text-gray-400">Introduce día, mes y los 4 dígitos del año</span>
+            </div>
+            
+            <div class="grid grid-cols-12 gap-2 sm:gap-3">
+                <!-- Día -->
+                <div class="col-span-3 sm:col-span-3">
+                    <label for="birth-day" class="block text-[11px] font-semibold text-gray-500 mb-1">Día</label>
+                    <input 
+                        type="number" 
+                        id="birth-day" 
+                        min="1" 
+                        max="31" 
+                        placeholder="DD" 
+                        class="w-full text-center px-2 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 outline-none font-bold text-gray-800 tabular-nums"
+                    >
+                </div>
+
+                <!-- Mes -->
+                <div class="col-span-5 sm:col-span-5">
+                    <label for="birth-month" class="block text-[11px] font-semibold text-gray-500 mb-1">Mes</label>
+                    <select 
+                        id="birth-month" 
+                        class="w-full px-2 sm:px-3 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 outline-none font-medium text-gray-800 text-xs sm:text-sm"
+                    >
+                        <option value="">Selecciona mes</option>
+                        <option value="1">01 - Enero</option>
+                        <option value="2">02 - Febrero</option>
+                        <option value="3">03 - Marzo</option>
+                        <option value="4">04 - Abril</option>
+                        <option value="5">05 - Mayo</option>
+                        <option value="6">06 - Junio</option>
+                        <option value="7">07 - Julio</option>
+                        <option value="8">08 - Agosto</option>
+                        <option value="9">09 - Septiembre</option>
+                        <option value="10">10 - Octubre</option>
+                        <option value="11">11 - Noviembre</option>
+                        <option value="12">12 - Diciembre</option>
+                    </select>
+                </div>
+
+                <!-- Año (Manual de 4 dígitos) -->
+                <div class="col-span-4 sm:col-span-4">
+                    <label for="birth-year" class="block text-[11px] font-semibold text-gray-500 mb-1">Año (4 dígitos)</label>
+                    <input 
+                        type="number" 
+                        id="birth-year" 
+                        min="1900" 
+                        max="2026" 
+                        placeholder="Ej. 1985" 
+                        inputmode="numeric"
+                        class="w-full text-center px-2 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 outline-none font-bold text-gray-800 tabular-nums"
+                    >
+                </div>
+            </div>
+
+            <div class="flex items-center justify-between mt-2 pt-1">
+                <p id="formatted-date-display" class="text-xs font-semibold text-blue-600 hidden"></p>
+                <label class="text-[11px] text-gray-400 hover:text-blue-600 cursor-pointer flex items-center gap-1 ml-auto transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                    </svg>
+                    <span>O abrir selector de calendario</span>
+                    <input type="date" id="birthdate-picker" class="sr-only">
+                </label>
+            </div>
         </div>
         
         <div id="results" class="hidden text-left space-y-6">
@@ -75,40 +120,71 @@ table {
                     <!-- Años -->
                     <div class="metric-card rounded-2xl p-4 flex flex-col items-center justify-center">
                         <span class="text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-1">Años</span>
-                        <span id="years" class="text-2xl font-black text-blue-600">0</span>
+                        <span id="years" class="text-2xl font-black text-blue-600 tabular-nums">0</span>
                     </div>
                     <!-- Meses -->
                     <div class="metric-card rounded-2xl p-4 flex flex-col items-center justify-center">
                         <span class="text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-1">Meses</span>
-                        <span id="months" class="text-2xl font-black text-blue-600">0</span>
+                        <span id="months" class="text-2xl font-black text-blue-600 tabular-nums">0</span>
                     </div>
                     <!-- Semanas -->
                     <div class="metric-card rounded-2xl p-4 flex flex-col items-center justify-center">
                         <span class="text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-1">Semanas</span>
-                        <span id="weeks" class="text-2xl font-black text-blue-600">0</span>
+                        <span id="weeks" class="text-2xl font-black text-blue-600 tabular-nums">0</span>
                     </div>
                     <!-- Días -->
                     <div class="metric-card rounded-2xl p-4 flex flex-col items-center justify-center">
                         <span class="text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-1">Días</span>
-                        <span id="days" class="text-2xl font-black text-blue-600">0</span>
+                        <span id="days" class="text-2xl font-black text-blue-600 tabular-nums">0</span>
                     </div>
                     <!-- Horas -->
                     <div class="metric-card rounded-2xl p-4 flex flex-col items-center justify-center col-span-2 sm:col-span-1">
                         <span class="text-[10px] uppercase tracking-widest font-bold text-gray-400 mb-1">Horas</span>
-                        <span id="hours" class="text-2xl font-black text-blue-600">0</span>
+                        <span id="hours" class="text-2xl font-black text-blue-600 tabular-nums">0</span>
                     </div>
                 </div>
             </div>
 
+            <!-- Panel de exportación -->
+            <div class="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 sm:p-5">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        Guardar y exportar cálculo
+                    </span>
+                    <span id="export-status-hint" class="text-[11px] text-slate-500 font-medium">Métricas calculadas</span>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                    <button id="download-pdf-btn" type="button" class="flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold py-2.5 px-4 rounded-xl shadow-sm transition-all duration-150 active:scale-[0.98] focus:ring-2 focus:ring-slate-400 outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-red-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                        <span>Descargar PDF</span>
+                    </button>
+                    <button id="download-txt-btn" type="button" class="flex items-center justify-center gap-2 bg-white hover:bg-slate-100 border border-slate-300 text-slate-700 text-xs font-semibold py-2.5 px-4 rounded-xl shadow-sm transition-all duration-150 active:scale-[0.98] focus:ring-2 focus:ring-blue-300 outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                        <span>Descargar TXT</span>
+                    </button>
+                </div>
+
+                <div id="export-toast" class="mt-2.5 text-center text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-lg py-1.5 px-3 hidden">
+                    Archivo generado con éxito
+                </div>
+            </div>
         </div>
 
         <p id="error-message" class="hidden text-sm font-medium text-red-500 mt-6 p-3 bg-red-50 rounded-lg"></p>
     </div>
 
     <!-- Converter: time unit → years -->
-    <div class="container-glass max-w-xl w-full p-8 md:p-10 text-center">
+    <div class="container-glass max-w-xl md:max-w-2xl w-full p-6 sm:p-8 md:p-10 text-center">
         <h2 class="text-2xl font-extrabold text-gray-900 mb-2 tracking-tight">Convertir tiempo a años</h2>
-        <p class="text-gray-500 mb-6">Introduce un valor y selecciona la unidad.</p>
+        <p class="text-gray-500 mb-6 text-sm">Introduce un valor y selecciona la unidad.</p>
 
         <div class="flex gap-3 mb-6">
             <input
@@ -116,7 +192,7 @@ table {
                 id="time-input"
                 min="0"
                 placeholder="Ej. 8760"
-                class="flex-1 px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 outline-none text-right"
+                class="flex-1 px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 outline-none text-right font-medium"
             >
             <select
                 id="unit-select"
@@ -130,14 +206,14 @@ table {
 
         <div id="conversion-result" class="hidden metric-card rounded-2xl p-6 text-center">
             <span class="text-[10px] uppercase tracking-widest font-bold text-gray-400 block mb-1">Equivale a</span>
-            <span id="converted-years" class="text-4xl font-black text-blue-600">0</span>
+            <span id="converted-years" class="text-4xl font-black text-blue-600 tabular-nums">0</span>
             <span class="text-xl font-bold text-gray-500 ml-2">años</span>
-            <p id="conversion-detail" class="text-xs text-gray-400 mt-2"></p>
+            <p id="conversion-detail" class="text-xs text-gray-400 mt-2 font-mono"></p>
         </div>
 
         <p id="conversion-error" class="hidden text-sm font-medium text-red-500 mt-4 p-3 bg-red-50 rounded-lg"></p>
     </div>
 
-    <script type="module" src="index.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
